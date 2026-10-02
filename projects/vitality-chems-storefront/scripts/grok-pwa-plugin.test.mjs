@@ -6,9 +6,9 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import {
   appNameFromHost,
-  createHeadInjector,
+  createHeadInjector as createHeadInjectorImpl,
   grokXCreatorHeadTags,
-  injectGrokPwaHead,
+  injectGrokPwaHead as injectGrokPwaHeadImpl,
   isDocumentPath,
   isInstallQuery,
   publicAppHost,
@@ -20,6 +20,15 @@ import {
 import { renderInstallPage } from "./grok-pwa-plugin.mjs";
 
 const TEMPLATE_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+const EMPTY_FIXTURE_ROOT = mkdtempSync(join(tmpdir(), "grok-pwa-empty-root-"));
+
+// Tests without an explicit cwd should not inherit this repository's real
+// public/og.jpg or src/lib/og/site.json. Tests for those files pass their own
+// temporary cwd explicitly.
+const injectGrokPwaHead = (html, ctx = {}) =>
+  injectGrokPwaHeadImpl(html, { cwd: EMPTY_FIXTURE_ROOT, ...ctx });
+const createHeadInjector = (ctx = {}) =>
+  createHeadInjectorImpl({ cwd: EMPTY_FIXTURE_ROOT, ...ctx });
 
 test("injects before </head>", () => {
   const out = injectGrokPwaHead("<html><head><title>x</title></head><body></body></html>");
@@ -503,4 +512,3 @@ test("vite plugin bakes og identity as a virtual module", () => {
   assert.match(plugin, /virtual:grok-og-identity/);
   assert.match(plugin, /snapshotOgIdentity/);
 });
-

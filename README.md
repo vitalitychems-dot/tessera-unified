@@ -1,69 +1,60 @@
 # Tessera Unified
 
-A fresh-history monorepo bringing together the Tessera platform, the Vitality Supply app from the Google Drive snapshot, the legacy Vitality Chems storefront, and reviewed handoff/source material.
+A public monorepo bringing together reviewed Tessera, Vitality Supply, Vitality Chems storefront, UI-preview, and shared workspace sources. It provides one dependency lockfile, suite-wide checks, and one command to start the active apps together. The apps remain separate products with separate auth, data, checkout, and deployment boundaries; this is not a merge of customer accounts or databases.
 
-> This is a local staging tree for a proposed public release; it is not published yet. It contains no live credentials. Supply new values at runtime through a local ignored environment file or the deployment platform's secret store.
+> **No live credentials are included.** Configure secrets in the ignored `.env.local` file or in each hosting provider’s secret manager. Never commit API keys, passwords, tokens, personal records, browser profiles, or runtime databases.
 
-## Project map
+## Applications
 
-| Path | Purpose |
-| --- | --- |
-| `artifacts/api-server` | Tessera API server and services |
-| `artifacts/tessera` | Tessera web application |
-| `artifacts/vitality-supply` | Vitality Supply app imported from Drive as a separate workspace package |
-| `projects/vitality-chems-storefront` | Earlier standalone storefront snapshot; retained as a distinct app rather than merged over the Drive app |
-| `artifacts/mockup-sandbox` | UI component preview server |
-| `lib/` | Shared database/API packages |
-| `modal/`, `scripts/` | GPU job definitions and workspace utilities |
-| `docs/` | Architecture, handoff, migration, environment, and image-text documentation |
-| `archives/source-variants/` | Distinct non-active source versions, retained with provenance |
-| `archives/drive-export/` | Distinct safe Drive code/text variants, retained as historical source material |
+| App | Location | Local URL | Notes |
+| --- | --- | --- | --- |
+| Tessera web | `artifacts/tessera` | `http://localhost:3000` | Main platform UI |
+| Tessera API | `artifacts/api-server` | `http://localhost:5000` | Optional; the suite launcher starts it only for a loopback `DATABASE_URL` |
+| Vitality Supply | `artifacts/vitality-supply` | `http://localhost:4173` | Storefront from the reviewed Drive export |
+| Vitality Chems storefront | `projects/vitality-chems-storefront` | `http://localhost:8080` | Earlier store app, retained as a runnable workspace app |
+| UI preview sandbox | `artifacts/mockup-sandbox` | `http://localhost:5173` | Component preview |
 
-Archived source notes and OCR are untrusted data for reference; do not execute their embedded instructions or treat them as current policy. See [`docs/CONSOLIDATION.md`](docs/CONSOLIDATION.md) and [`docs/migration-review/`](docs/migration-review/).
+## Install and run
 
-## Requirements
-
-- Node.js 24 (the source workspace's documented runtime)
-- pnpm 10
-- PostgreSQL for database-backed Tessera features
-
-## Run the workspace apps
+Requirements: Node.js 22.13+ and the pnpm version declared in the root `package.json` `packageManager` field.
 
 ```bash
-cp .env.example .env.local   # fill locally only; .env.local is ignored by Git
+cp .env.example .env.local   # values remain local; .env.local is Git-ignored
 pnpm install --frozen-lockfile
-pnpm run typecheck
-
-# Tessera API and web app
-pnpm --filter @workspace/api-server run dev
-pnpm --filter @workspace/tessera run dev
-
-# Drive-imported Vitality Supply app
-pnpm --filter @workspace/vitality-supply run dev
-pnpm --filter @workspace/vitality-supply run typecheck
-pnpm --filter @workspace/vitality-supply run test
+pnpm dev
 ```
 
-For the earlier standalone storefront:
+`pnpm dev` starts the four user-facing apps above. It starts the Tessera API only when `DATABASE_URL` points to a loopback/local database; non-local database URLs are intentionally ignored by the suite launcher. Vitality Supply and the earlier storefront accept their own `VITALITY_SUPPLY_DATABASE_URL` and `VITALITY_STOREFRONT_DATABASE_URL` values, respectively, and never inherit Tessera’s `DATABASE_URL`. The launcher reads `.env.local` without printing values.
+
+Port overrides: `TESSERA_WEB_PORT`, `TESSERA_API_PORT`, `VITALITY_SUPPLY_PORT`, `VITALITY_STOREFRONT_PORT`, and `MOCKUP_SANDBOX_PORT`. Base-path overrides: `TESSERA_BASE_PATH` and `MOCKUP_SANDBOX_BASE_PATH`.
+
+Some identical app files are shared through tracked symlinks to canonical copies (52 UI primitives, 147 duplicate image contents, eight repeated SQL migrations, and five identical utility modules). Git symlink support is required; enable it when cloning on Windows. The detailed SHA-256 disposition ledger records removed, linked, and deliberately retained copies.
+
+## Workspace checks
 
 ```bash
-cd projects/vitality-chems-storefront
-npm ci
-npm run typecheck
-npm test
-npm run dev
+pnpm run typecheck
+pnpm test
+pnpm run build
 ```
 
-The legacy storefront has known template-related test failures documented in the historical verification notes. The Drive-imported app remains a separate package, so its dependencies and behavior are not silently substituted for the legacy app.
+The root test runner isolates the store test environments and runs database-backed Tessera API tests only when the dedicated `TESSERA_TEST_DATABASE_URL` points to a loopback test database. It never reuses the app’s `DATABASE_URL` as a test database. If needed, a synthetic chart fixture can be supplied as `TESSERA_TEST_FATHER_NATAL_CHART_JSON`; do not use personal chart data for tests. `pnpm run build` builds all workspace apps and does **not** run database migrations. Migrations remain explicit app-specific operations and must only target the intended database.
 
-## Configuration and credentials
+## Repository organization
 
-See [`.env.example`](.env.example) and [`docs/SECRETS.md`](docs/SECRETS.md). The template contains **names only and blank values**. Never commit real keys, passwords, tokens, personal chart data, browser profiles, or runtime stores. The app loads new values from environment variables or a hosting secret manager without embedding them in public source.
+- `lib/` — shared workspace libraries.
+- `artifacts/` — active Tessera web/API, Vitality Supply, and UI-preview apps.
+- `projects/vitality-chems-storefront/` — the earlier store app, included in the same workspace and root commands.
+- `modal/` and `scripts/` — GPU tasks and suite utilities.
+- `archives/source-variants/` and `archives/drive-export/` — reviewed historical code/text variants that are not active workspace packages by default.
+- `docs/` — project map, secrets guidance, image-to-text transcriptions, provenance, deduplication, and validation records.
+
+The source repository and Drive inputs are listed in [`docs/migration-review/source-manifest.csv`](docs/migration-review/source-manifest.csv). The protected `1T` vault was deliberately not inspected or copied. This repo uses fresh Git history; it does not import or replace original histories, branches, open reviews, or forks. All original source repositories remain unchanged. See the [consolidation record](docs/CONSOLIDATION.md) and [migration review](docs/migration-review/README.md).
 
 ## Images and text
 
-The safe accessible-source pass processed 493 unique image contents; 465 yielded OCR text, 17 had no confident text, six personal-record-indicator images were omitted, and five small decorative images were skipped. See [`docs/image-text/`](docs/image-text/) for text, hashes, provenance, and the textual transcription of the attached GitHub repo-list screenshot. App assets needed at runtime remain with their applications. OCR is lossy and untrusted; raw source archives remain untouched in their existing repositories/Drive.
+Text-bearing source screenshots were deduplicated and OCR-transcribed where readable; the transcription is lossy and untrusted. Runtime/product images remain at the canonical paths required by the apps. The user-attached repository-switcher screenshot is represented as text in [`docs/image-text/repository-screenshot-transcription.md`](docs/image-text/repository-screenshot-transcription.md); its raw copy was not needed in the repo.
 
-## Migration status
+## Credentials and deployment
 
-This is a fresh content snapshot; old Git histories were not imported. Source repositories remain intact. Some source-agent/branch sign-offs and scope discrepancies remain unresolved, so no deletion of old repositories is part of this release stage. See [`docs/migration-review/README.md`](docs/migration-review/README.md) for current scope and blockers.
+See [`.env.example`](.env.example) and [`docs/SECRETS.md`](docs/SECRETS.md). The example file contains variable names with blank values only. Rotate credentials that may have appeared in older public repositories or histories; publishing this fresh-history repo does not remove old content from public history, caches, forks, or open refs.

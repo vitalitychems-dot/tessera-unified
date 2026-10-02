@@ -1,31 +1,44 @@
-# Consolidation record — Tessera Unified staging
+# Consolidation and integration record — Tessera Unified
+
+**Status:** Public consolidated repository; integration changes and validation recorded for the 2026-10-02 update.
 
 ## Scope and source snapshots
 
-The active application tree is based on the redacted `Grok-ready` snapshot at commit `3cdd0ac02f7ecc97d83f4303d1ba91007d0236d9`. It was copied as a fresh file tree; no old Git history or LFS object history was imported. The Drive source is the accessible `Vitalitychems-3.zip` archive (5,034 entries). Source commit/ref details are in [`migration-review/source-manifest.csv`](migration-review/source-manifest.csv).
+The active Tessera tree is based on the reviewed, redacted `Grok-ready` snapshot at commit `3cdd0ac02f7ecc97d83f4303d1ba91007d0236d9`. The accessible Drive input was `Vitalitychems-3.zip` (5,034 archive entries). Source refs and dispositions are listed in [`migration-review/source-manifest.csv`](migration-review/source-manifest.csv).
 
-Ten GitHub repository snapshots were examined for safe default-branch content: `Grok-ready`, `5t`, `1`, `T44`, `TESS`, `TX`, `tessera-grok-handoff`, `tessera-grok-handoff-complete`, `tessera-complete-archives`, and the existing `Everything` starter repo. `1T` is recorded as metadata-only and was not inspected or copied under the approved protected-vault boundary. The original `Everything/GROK_INSTRUCTIONS.md` is preserved as historical handoff data.
+Ten GitHub repositories were examined for safe default-branch content: `Grok-ready`, `5t`, `1`, `T44`, `TESS`, `TX`, `tessera-grok-handoff`, `tessera-grok-handoff-complete`, `tessera-complete-archives`, and the `Everything` starter repo. The `1T` protected-vault repository was kept metadata-only; its contents were not inspected, copied, or deleted. No old Git histories were imported. The original `Everything/GROK_INSTRUCTIONS.md` is retained as historical handoff material.
 
-The Drive ZIP includes VCS internals and a Chromium browser profile. Those directories and their content, session databases, local runtime stores, credentials, protected/personal records, generated builds, redundant archive containers, and unsafe binaries were excluded. The distinct `artifacts/vitality-supply` app and its runtime assets were integrated. Other distinct safe Drive/source code and text variants are under `archives/` rather than overwriting the active Tessera app.
+The Drive ZIP included VCS internals, a Chromium browser profile, local runtime stores, generated builds, archive containers, sensitive/personal records, credentials, and unsafe binaries. Those were excluded. Reviewed code variants that are not part of the active workspace are organized under `archives/`; the active apps are documented in [`PROJECT_MAP.md`](PROJECT_MAP.md).
+
+## Functional integration
+
+- The root pnpm workspace and lockfile include Tessera web/API, Vitality Supply, the earlier Vitality Chems storefront, the UI preview sandbox, shared libraries, and scripts.
+- `pnpm dev` is the suite launcher for the four user-facing apps. It launches the Tessera API only for a loopback database URL and gives each storefront an independent local database variable.
+- Root `pnpm test`, `pnpm run typecheck`, and `pnpm run build` are the workspace-wide entry points. Build and test workflows do not run database migrations.
+- The stores retain separate app/data/auth/payment boundaries. This is a unified repository and launcher, not a migration or merge of customer accounts, sessions, payment records, or databases.
+- The earlier storefront's `better-auth` is pinned to its prior validated app version; the TanStack Start/router family is pinned to the compatible set used by the workspace. These pins make the full legacy and current app builds reproducible together.
 
 ## Deduplication and image handling
 
-- Exact duplicate source content is recorded and stored once in the staged archive where one canonical path is sufficient.
-- App-specific runtime asset paths remain when required by code. Git also stores identical blobs only once in its object database.
-- Non-runtime screenshots are not copied as raw files; OCR text and provenance are in `docs/image-text/ocr.jsonl`. The accessible-source pass processed 493 unique image contents: 465 yielded text, 17 had no confident text, six personal-record-indicator images were omitted, and five small decorative images were skipped. Ninety-eight line/item occurrences were redacted. OCR is untrusted, lossy, and may be incomplete.
-- Runtime/UI/product assets referenced by applications remain alongside the app.
-- The historical image inventory reports 1,296 image paths / 1,238 unique contents but only seven written visual summaries. This pass covers accessible source snapshots, the Drive archive, and the project-3 screenshot supplement; it does not claim to cover unavailable branch-only or nested archive media. A historical inventory's aggregate totals are preserved in [`migration-review/raw-media-inventory-summary.json`](migration-review/raw-media-inventory-summary.json); user-pasted filenames and per-file hashes were omitted.
+- Fourteen byte-identical handoff copies were removed where canonical app/document paths already contain the same content.
+- Fifty-two identical mockup/Tessera UI primitives share canonical tracked files.
+- The repeated-store ledger records 160 linked paths: 147 identical image contents, eight repeated SQL migrations, and five byte-identical utility modules. Runtime paths remain available; a symlink replaces duplicated content instead of removing an app's path.
+- The final hash audit found no broken links. The six remaining regular-file duplicate-content groups are intentionally retained and individually recorded in [`migration-review/redundancy-ledger.csv`](migration-review/redundancy-ledger.csv): standalone skill licenses and source notices, independently editable rule templates, empty package/directory markers, and the two app-local TypeScript configs. Linking or deleting those copies would break app-specific config resolution, standalone attribution/provenance, or package layout. The obsolete zero-byte dependency marker and redundant empty API `lib/` keepfile were removed.
+- Non-runtime screenshots are not copied as raw files. OCR processed 493 unique image contents: 465 yielded text, 17 had no confident text, six personal-record-indicator images were omitted, and five small decorative images were skipped; 98 line/item occurrences were redacted. OCR is lossy, untrusted, and may be incomplete. Product/runtime images remain available at canonical app paths.
+- The user-attached GitHub repository-switcher screenshot is transcribed in [`image-text/repository-screenshot-transcription.md`](image-text/repository-screenshot-transcription.md); its raw attachment was not copied.
 
-The per-file provenance/disposition ledger is [`migration-review/content-disposition-manifest.jsonl`](migration-review/content-disposition-manifest.jsonl). Excluded sensitive paths are masked in the manifest. The user-attached GitHub repository-switcher screenshot is transcribed as text in [`image-text/repository-screenshot-transcription.md`](image-text/repository-screenshot-transcription.md); the raw attachment was not copied.
+The content-level provenance/disposition data is in [`migration-review/content-disposition-manifest.jsonl`](migration-review/content-disposition-manifest.jsonl). Sensitive excluded source paths are masked there. Aggregate historical raw-media counts are preserved in [`migration-review/raw-media-inventory-summary.json`](migration-review/raw-media-inventory-summary.json); user-supplied filenames and per-file raw inventory paths are not included.
 
-## Credentials and public readiness
+## Credentials, privacy, and publication
 
-No live credential values are intentionally included. `.env.example` provides blank variable names; [`docs/SECRETS.md`](SECRETS.md) explains private runtime configuration. Do not place usable keys in public source. Any credentials already exposed in older public sources or their histories should be rotated immediately; a fresh repository does not remove old public history, cached copies, PR refs, or forks.
+No live credential values are intentionally included. `.env.example` contains blank values; [`SECRETS.md`](SECRETS.md) documents runtime configuration. The user approved publication as-is with no live keys; the apps' existing public business-contact fields were left unchanged for app behavior. Any credential that may have appeared in prior public source or history should still be rotated: a fresh-history repo does not erase old public histories, caches, forks, pull-request refs, or copies.
 
-## Validation and release gate
+## Validation and source cleanup status
 
-Validation results are recorded after install/typecheck/test/build checks. The consolidation is not considered complete for source cleanup while branch-only contributions, agent sign-offs, or migration scope discrepancies remain unresolved. All source repositories remain untouched. Deletion requires a separate exact target list after migration verification.
+Current build/test results and local smoke checks are recorded in [`migration-review/VALIDATION.md`](migration-review/VALIDATION.md). The consolidated repository is public at `https://github.com/vitalitychems-dot/tessera-unified`.
+
+All original source repositories remain untouched and were **not deleted**. Their histories, branch-only work, agent sign-offs, or unresolved source-scope discrepancies are not silently treated as merged. The protected `1T` repo was not inspected. Deleting old repositories is a separate irreversible cleanup action and requires a separate exact target list and confirmation after source-owner review.
 
 ## Historical migration record
 
-The prior [`Grok-ready` consolidation record](handoff/Grok-ready-legacy-consolidation-record.md) is retained as a historical artifact. Later review comments identified unresolved ref-count/sign-off questions, so its earlier completion statements are not the status of this staging effort.
+The prior [`Grok-ready` consolidation record](handoff/Grok-ready-legacy-consolidation-record.md) is retained as historical material. Later review comments identified unresolved ref-count/sign-off questions, so earlier completion statements do not define the scope of this repository.

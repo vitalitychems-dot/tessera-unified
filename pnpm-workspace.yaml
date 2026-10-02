@@ -1,5 +1,6 @@
 packages:
   - artifacts/*
+  - projects/*
   - lib/*
   - lib/integrations/*
   - scripts
@@ -62,6 +63,22 @@ overrides:
   '@tailwindcss/oxide>@tailwindcss/oxide-win32-arm64-msvc': '-'
   '@tailwindcss/oxide>@tailwindcss/oxide-win32-x64-msvc': '-'
   esbuild: 0.27.3
+  nf3: 0.3.17
+  '@tanstack/history': 1.162.2
+  '@tanstack/react-router': 1.170.33
+  '@tanstack/react-start': 1.168.50
+  '@tanstack/react-start-client': 1.168.31
+  '@tanstack/react-start-rsc': 0.1.49
+  '@tanstack/react-start-server': 1.167.38
+  '@tanstack/router-core': 1.171.28
+  '@tanstack/router-generator': 1.167.34
+  '@tanstack/router-plugin': 1.168.36
+  '@tanstack/router-utils': 1.162.2
+  '@tanstack/start-client-core': 1.170.28
+  '@tanstack/start-fn-stubs': 1.162.0
+  '@tanstack/start-plugin-core': 1.171.40
+  '@tanstack/start-server-core': 1.169.32
+  '@tanstack/start-storage-context': 1.167.30
   esbuild>@esbuild/aix-ppc64: '-'
   esbuild>@esbuild/android-arm: '-'
   esbuild>@esbuild/android-arm64: '-'

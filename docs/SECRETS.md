@@ -16,7 +16,9 @@ This repository is intended to be public. **Do not commit real credentials, priv
 
 ## Important values
 
-The active Tessera API uses `DATABASE_URL`, admin/session keys (`TESSERACT_ADMIN_KEY`, `SIGIL_ADMIN_KEY`, `SOVEREIGN_ADMIN_TOKEN`, `SESSION_SECRET`), and optional AI/Modal integration values. `FATHER_NATAL_CHART_JSON` is owner-private personal data, not a public configuration literal; leave it blank in the template and supply it privately only if that feature is enabled.
+The active Tessera API uses `DATABASE_URL`, admin/session keys (`TESSERACT_ADMIN_KEY`, `SIGIL_ADMIN_KEY`, `SOVEREIGN_ADMIN_TOKEN`, `SESSION_SECRET`), and optional AI/Modal integration values. The root development supervisor auto-starts the API only when `DATABASE_URL` is local/loopback; it never forwards that URL to either storefront. Storefronts use separate optional local values, `VITALITY_SUPPLY_DATABASE_URL` and `VITALITY_STOREFRONT_DATABASE_URL`. `FATHER_NATAL_CHART_JSON` is owner-private personal data, not a public configuration literal; leave it blank in the template and supply it privately only if that feature is enabled.
+
+Database-backed API tests are opt-in through `TESSERA_TEST_DATABASE_URL`, which must point to a dedicated local test database. The test runner refuses remote database hosts and does not reuse `DATABASE_URL`. Never aim test commands at production or a database containing user/customer data.
 
 The Vitality Supply and legacy storefront sources may need auth/payment credentials. Names in `.env.example` are intentionally empty and are not usable credentials. Confirm which provider features are enabled before setting any values. Never reuse example credentials copied from source archives.
 
