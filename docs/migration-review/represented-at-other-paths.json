@@ -1,0 +1,2221 @@
+{
+  "compared_candidate": "4072851ad13536b3e65cbd7fecfe73d306038d32",
+  "count": 443,
+  "files": [
+    {
+      "source": "SOVEREIGN_REDESIGN.md",
+      "canonical": "docs/SOVEREIGN_REDESIGN.md",
+      "sha": "ff1626171fd88167029c1e26f3dc0677ea987acf"
+    },
+    {
+      "source": "attached_assets/user-provided-text-dea68b2e286d.txt",
+      "canonical": "docs/source-notes/user-provided-text-dea68b2e286d.txt",
+      "sha": "5cd4f613b4d22dd601fcfc7a64d0141d548e5b7b"
+    },
+    {
+      "source": "archives/source-binary-variants/opengraph-72200a53fc.jpg",
+      "canonical": "artifacts/tessera/public/opengraph.jpg",
+      "sha": "72200a53fc50ed5afc4f3184a1955f3e66047a57"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.gitignore",
+      "canonical": "projects/vitality-chems-storefront/.gitignore",
+      "sha": "d218143954d25ff689dc8149c3111f970d497c04"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.prettierrc",
+      "canonical": "projects/vitality-chems-storefront/.prettierrc",
+      "sha": "bccee911b6b0dac9051d360fbc5e0a6303eed8fb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.project_id",
+      "canonical": "projects/vitality-chems-storefront/.project_id",
+      "sha": "4ca64d7e6c462bdd48e8227222b4f0449e167467"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/AGENTS.md",
+      "canonical": "projects/vitality-chems-storefront/AGENTS.md",
+      "sha": "42f64627fa178f74fb0a3716b7e08a2db564fbb8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/eslint.config.mjs",
+      "canonical": "projects/vitality-chems-storefront/eslint.config.mjs",
+      "sha": "bfc3c2560b42997c103f92bb5b681ce46163eb0c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/package.json",
+      "canonical": "projects/vitality-chems-storefront/package.json",
+      "sha": "aa2de99df48631c1a30bbf30ab9df62345d987ff"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/startup.sh",
+      "canonical": "projects/vitality-chems-storefront/startup.sh",
+      "sha": "c4d943c1cf5c78df19a8126a2747b482de2ba0fd"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/tsconfig.json",
+      "canonical": "projects/vitality-chems-storefront/tsconfig.json",
+      "sha": "88b15efc8660413c4937067a6f621ebd171c5964"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/vite.config.ts",
+      "canonical": "projects/vitality-chems-storefront/vite.config.ts",
+      "sha": "4117b6a50151a3704329e04d5aeffa7b267b010e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/og-q2.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/og.jpg",
+      "sha": "d84f9e5e61fe573a1c1c324a3c5d71599f2d31e6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/status",
+      "canonical": "projects/vitality-chems-storefront/.grok/status",
+      "sha": "3e87cef6c7208dc89d3a01557d9da237dd126a28"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0001_auth.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/auth/0001_auth.sql",
+      "sha": "08c6b01fef9b46e72470fb66ea967d5f84e9bdb5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0002_store.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/0002_store.sql",
+      "sha": "c6b9c022069e451834b8dfdbe98ac9e2764911a8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0003_promos.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/0003_promos.sql",
+      "sha": "15c70979e696cb02391965171cdcd256afa48e6a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0004_credits.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/0004_credits.sql",
+      "sha": "f90b9bfec34cc51a834981ec20a54704b2aa3a1f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0005_optimizer.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/0005_optimizer.sql",
+      "sha": "b8240eac1fbb4afde1a109819877ead62ec6d04c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0006_affiliate.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/0006_affiliate.sql",
+      "sha": "782cb6d87066bca973511a3974426746aac0200f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/migrations/0007_wholesale_affiliate.sql",
+      "canonical": "projects/vitality-chems-storefront/migrations/0007_wholesale_affiliate.sql",
+      "sha": "80188c9de6133933260e1a3cb1d5ea18ef2d66a4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/favicon.png",
+      "canonical": "projects/vitality-chems-storefront/public/favicon.png",
+      "sha": "beb777f3380eb444266d8033189b0e1d73b9f637"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/favicon.svg",
+      "canonical": "projects/vitality-chems-storefront/public/favicon.svg",
+      "sha": "8a37c938fd9451980a5de3dc6dc8795c0bf5d680"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/llms.txt",
+      "canonical": "projects/vitality-chems-storefront/public/llms.txt",
+      "sha": "ce3cd24fa74215c7911f40f1206e6de0cd02ad31"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/robots.txt",
+      "canonical": "projects/vitality-chems-storefront/public/robots.txt",
+      "sha": "589f47082ee57a3f1fd1d856ac344650530b06ad"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sitemap.xml",
+      "canonical": "projects/vitality-chems-storefront/public/sitemap.xml",
+      "sha": "5315a7a8246115ecb3584b09c32fbd8873a17906"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/vial-body.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/vial-body.jpg",
+      "sha": "551dd4b9cc84aa52c40b4a96d6b6805343dc5c68"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/screenshots/app-builder-built.json",
+      "canonical": "projects/vitality-chems-storefront/screenshots/app-builder-built.json",
+      "sha": "19625503012b4450ed7e39440d4a40818422f9ec"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/screenshots/app-builder-preview.json",
+      "canonical": "projects/vitality-chems-storefront/screenshots/app-builder-preview.json",
+      "sha": "6cc0f0ec4b582c31821243c3e1f384ad674716ef"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/app-env-plugin.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/app-env-plugin.mjs",
+      "sha": "9b9b69e071c99fb2ed1b56a759bead15169b2fe8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/brand-check.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/brand-check.mjs",
+      "sha": "89a9e587c6cad6ee9944af28160fbfdc05fde1ac"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/brand-check.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/brand-check.test.mjs",
+      "sha": "bda0e9b6208db4bdb8a2b4ad84502680d30af7c9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/browser-guard.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/browser-guard.mjs",
+      "sha": "ebfbdb147f0b266a4ca46fe451daae1ae023c2db"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/browser-smoke-verdict.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/browser-smoke-verdict.mjs",
+      "sha": "020dd9991778b477e0003316064275db0d0fe3d8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/browser-smoke-verdict.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/browser-smoke-verdict.test.mjs",
+      "sha": "d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/browser-smoke.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/browser-smoke.mjs",
+      "sha": "c1ae5d1216ebcada1dde366328dc3b2aef446e67"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/check-auth-invariant.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/check-auth-invariant.mjs",
+      "sha": "b558378c35f88069e34e344579391c395f565640"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/check-auth-invariant.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/check-auth-invariant.test.mjs",
+      "sha": "4cc9b6faa28b56c83a498003bfc9a2b200aad276"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/grok-pwa-plugin.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/grok-pwa-plugin.mjs",
+      "sha": "97821e8b28840b612d13c35bb95f6dfd07ffa006"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/grok-pwa-shared.d.mts",
+      "canonical": "projects/vitality-chems-storefront/scripts/grok-pwa-shared.d.mts",
+      "sha": "609ea6b65670d68ac9261d569bd8a0a8d092c6a4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/grok-pwa-shared.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/grok-pwa-shared.mjs",
+      "sha": "e0aae02b45849f6dff89e0cdb6e51894a4ab863f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/install-page.html",
+      "canonical": "projects/vitality-chems-storefront/scripts/install-page.html",
+      "sha": "f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/migrate.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/migrate.mjs",
+      "sha": "7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/migration-plan.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/migration-plan.mjs",
+      "sha": "861450f0849ab6f56a00c30ddeb91ac4262cc1f7"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/migration-plan.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/migration-plan.test.mjs",
+      "sha": "ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/preview-thumbnail.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/preview-thumbnail.mjs",
+      "sha": "dd2afaed2b10ece67a7b8a5320b35d76edf0de09"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/preview.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/preview.mjs",
+      "sha": "cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/preview.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/preview.test.mjs",
+      "sha": "cf39aecf27ccf30de42a28da07a88dd6b884095f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/sign-out-plan.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/sign-out-plan.mjs",
+      "sha": "cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/sign-out-plan.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/sign-out-plan.test.mjs",
+      "sha": "7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/with-app-env.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/with-app-env.mjs",
+      "sha": "e48dfafa69fa33d5288269ce939236956ff75e9c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/with-app-env.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/with-app-env.test.mjs",
+      "sha": "823092f39cbf708d84a9abd5c0f4e658687b7265"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/write-atomic.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/write-atomic.mjs",
+      "sha": "293e2951f4c0b729174f21a79baa0a717f1b03f0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/write-atomic.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/write-atomic.test.mjs",
+      "sha": "6df411a7d88059be2113bf1138ceb5982fcfb16e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/server/virtual-grok-og-identity.d.ts",
+      "canonical": "projects/vitality-chems-storefront/server/virtual-grok-og-identity.d.ts",
+      "sha": "2baed2dbb4a24d8374b25158e37f1e2bda8fab0d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/router.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/router.tsx",
+      "sha": "a0e7546fd5d60f17e3e625b12938a829ce4dcada"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routeTree.gen.ts",
+      "canonical": "projects/vitality-chems-storefront/src/routeTree.gen.ts",
+      "sha": "a14071be5caaaf1ab605ccc60bea22466bafc113"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/styles.css",
+      "canonical": "projects/vitality-chems-storefront/src/styles.css",
+      "sha": "4d9c3ef445eb53f4aa2f161d51132ffca9a06ac8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/og-fonts/BarlowCondensed-Bold.ttf",
+      "canonical": "projects/vitality-chems-storefront/.grok/og-fonts/BarlowCondensed-Bold.ttf",
+      "sha": "9e480f467d703009e3abfce290b2ec2b7d24e188"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/og-fonts/BarlowCondensed-Medium.ttf",
+      "canonical": "projects/vitality-chems-storefront/.grok/og-fonts/BarlowCondensed-Medium.ttf",
+      "sha": "eee49eb632153608c0bef5809ceab2418dd617a8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/og-fonts/BarlowCondensed-Regular.ttf",
+      "canonical": "projects/vitality-chems-storefront/.grok/og-fonts/BarlowCondensed-Regular.ttf",
+      "sha": "ecbe0cc84118decc6a16216ad53d83d39888b175"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/og-fonts/BarlowCondensed-SemiBold.ttf",
+      "canonical": "projects/vitality-chems-storefront/.grok/og-fonts/BarlowCondensed-SemiBold.ttf",
+      "sha": "9df66576492bee4bd0559066825472808fa98adc"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/references/browser-qa.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/references/browser-qa.md",
+      "sha": "15457e53368d5d49990ac657c25a9a75928c7021"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/references/data-and-auth.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/references/data-and-auth.md",
+      "sha": "de2208f6ba084e931b991360c4fbf20f77011171"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/references/deploy-target.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/references/deploy-target.md",
+      "sha": "68ea777f64eecbb4933908c6b94cf39dd23dbd8a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/references/generated-art.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/references/generated-art.md",
+      "sha": "c36134d08e257b23622753645b6d30e75c481816"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/references/hibernate-revive.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/references/hibernate-revive.md",
+      "sha": "62f9f1a35b9c9965abc679b9183806be28624be2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/references/scaffold.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/references/scaffold.md",
+      "sha": "3da9bcc979b2542c9819f4156bd8254db5b8589b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/SKILL.md",
+      "sha": "bb8e99f7a99d7be13b268911c7903c28fc2ea3b4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/SKILL.md",
+      "sha": "0c6b3cfbe63ecf0afbb74576d182474a6f1aec58"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/controls/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/controls/SKILL.md",
+      "sha": "9d2d48fa18e58c8464723426ca3aa69b38bff652"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/design-ui/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/design-ui/SKILL.md",
+      "sha": "312379206fb167e36f09ee386a29496e1ddb358c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/game-animation-frames/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/game-animation-frames/SKILL.md",
+      "sha": "90aa9818941593a16d6da1719c285098b32c1323"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/game-asset-core/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/game-asset-core/SKILL.md",
+      "sha": "52821bfaccd0f383d364f37756f212e32bb7099d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/game-character-consistency/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/game-character-consistency/SKILL.md",
+      "sha": "e16fe722999e83fa5f3545660cd4608318f3f453"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/game-tilesets/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/game-tilesets/SKILL.md",
+      "sha": "3a2943bee9bd5ac253b074b7dc7990762602900e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/game-ui-icons/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/game-ui-icons/SKILL.md",
+      "sha": "d326dc59e646f346b0d0b81428e70c678c82517e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/LICENSE",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/video2dsprite/LICENSE",
+      "sha": "5c7720b24e8d24177847e32f8fa498328167f6ba"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/SKILL.md",
+      "sha": "7ddb77c7cc5f2d32c25ba3a90a1f953f5b3004ff"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/SOURCE.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/video2dsprite/SOURCE.md",
+      "sha": "71b68ff6752d68b4b71f97aa025b57f768429ef3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dsprite/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dsprite/SKILL.md",
+      "sha": "91ecbb1bbc87781710fb4a766bd45d4c8fc08fd2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/imagine/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/imagine/SKILL.md",
+      "sha": "4fcb9f5d2b32bc814b9d7653292469e1018c56a0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/multiplayer-p2p/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/multiplayer-p2p/SKILL.md",
+      "sha": "30357b375345712caed74ee346ae7b2fabbcf26e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/neon/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/neon/SKILL.md",
+      "sha": "a5e5270e1f4541bcd15ddcae5b141ba30a50d140"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/SKILL.md",
+      "sha": "ee7894c0a7e8301878896d18be8416faf609c8e8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/threejs/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/threejs/SKILL.md",
+      "sha": "cd3bce9c18d4b394d44fc0b0d7e4930b78fae7c7"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/video2dsprite/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/video2dsprite/SKILL.md",
+      "sha": "4066a255394dcf489bb3c9105f80f8308ac463a7"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/xai-api/SKILL.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/xai-api/SKILL.md",
+      "sha": "e6dc5f869e8f4a0acb96cc4e48609fd3bcd8735e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/references/grok-identity.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/references/grok-identity.md",
+      "sha": "3d5701ac994e662dafec5cc3cb4a2221d1244811"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/references/per-user-data.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/references/per-user-data.md",
+      "sha": "3fa8bfd20b4a693de1ec0324c3f3d9f86146e319"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/references/prewired-and-env.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/references/prewired-and-env.md",
+      "sha": "411024e3b2ecfd032338432e2209b95faa3946c4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/references/session-ui.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/references/session-ui.md",
+      "sha": "c07df42f57a4fa3fd4be25971a36fbba0300ae96"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/references/sign-in-methods.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/references/sign-in-methods.md",
+      "sha": "3ffc65813b71668117b59466a2dccea679513504"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/auth/references/wiring.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/auth/references/wiring.md",
+      "sha": "c2331be23ca6352d2764b812971094504117fb8f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/3d-libs.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/3d-libs.md",
+      "sha": "d3bf27a736b6ba357fe4612b4c8bbf5ced9f9e3b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/ai-pathfinding.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/ai-pathfinding.md",
+      "sha": "80232c60020e12da08877cdd361a420caceb2bec"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/audio.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/audio.md",
+      "sha": "ca86a7f7bd24ccbad323edc8a30d0651b8f74d87"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/babylon.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/babylon.md",
+      "sha": "b0a7c4cf8fcc72d687eeb8a78d4299fddd776842"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/collision-physics.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/collision-physics.md",
+      "sha": "5ce9189d5f39d8701facd5c1ecda231a2c7fe1d6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/ecs-architecture.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/ecs-architecture.md",
+      "sha": "6011f388c3c4b0ae30b4fd489402692ebc66e0fe"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/game-feel-juice.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/game-feel-juice.md",
+      "sha": "91ef68cbcf5589492c3bfc47aeed9e2e341da79d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/input.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/input.md",
+      "sha": "8af1c793a8e172778967e880aa4948a6bba64551"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/phaser.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/phaser.md",
+      "sha": "9bf3b2619fd33d26463c092848171f1b24035635"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/procedural-generation.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/procedural-generation.md",
+      "sha": "5d13c1527b57aa1d8d744058638fafaae05146e4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/save-persistence.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/save-persistence.md",
+      "sha": "c2d1de3bdb780cd82b1f3d3b002c68ac3a4481ee"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/threejs-foundational.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/threejs-foundational.md",
+      "sha": "89b694228c9f9249ad8da04b31929950cef4fa49"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/board-card-chess.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/board-card-chess.md",
+      "sha": "f9817a4d680f6f741bdd1f666b4b270044f35534"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/endless-runner.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/endless-runner.md",
+      "sha": "32564725a1fae828931e646cf5482b987fc6b6db"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/fps.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/fps.md",
+      "sha": "a93793804e72eb389c5b68de70e4d9b10620adac"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/platformer-2d.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/platformer-2d.md",
+      "sha": "c58b22db80d31e256112c70d4a8d748b1efa792f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/puzzle-match3-tetris.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/puzzle-match3-tetris.md",
+      "sha": "ea859f5f51439fe3d2cd9fddbd86f2119d8bb754"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/racing-kart.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/racing-kart.md",
+      "sha": "3a44016e74363251fa6ae1a2e39f57d0ea0f98fd"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/topdown-twin-stick.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/topdown-twin-stick.md",
+      "sha": "3aab68faa757ed0fcdeba28f13db1068bb40fa8d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/tower-defense.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/tower-defense.md",
+      "sha": "e1361195a3e52e23068c58154e46d922d5a7eaf0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/building-games/references/genres/voxel-minecraft.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/building-games/references/genres/voxel-minecraft.md",
+      "sha": "b77fadb26751194553f398a5537164e4977828c6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/design-ui/references/animations.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/design-ui/references/animations.md",
+      "sha": "ce802fd0085f7ecd1ba3c18056e9a3355e2e1234"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/design-ui/references/performance.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/design-ui/references/performance.md",
+      "sha": "155954988e9b7a518ad09d37e94f3b34e8ea8ffd"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/design-ui/references/refined-ui.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/design-ui/references/refined-ui.md",
+      "sha": "6f0970fb680bbf7576521032da4a38dae9da0bc7"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/design-ui/references/surfaces.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/design-ui/references/surfaces.md",
+      "sha": "eb8ab67dcb5f74e292769d7419be36569dbce6bb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/design-ui/references/typography.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/design-ui/references/typography.md",
+      "sha": "12b8db307dabebaac3ebe3d082260cd64f7408b7"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/deliverables.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/deliverables.md",
+      "sha": "6ee56abfb8f9c35446ab77b60751f8864e0a7175"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/layered-map-contract.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/layered-map-contract.md",
+      "sha": "723676e9fa6d65521e51c314bdb8eeafa739704d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/map-strategies.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/map-strategies.md",
+      "sha": "da1d12a36c048d7d821bebdd5be0d6b3d068eeeb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/object-production-gate.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/object-production-gate.md",
+      "sha": "0b38111802f0921b3ac375c888a2aaa661b98c7c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/pipeline.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/pipeline.md",
+      "sha": "c2ebe7bb4477f8ba1be6815b48ed64143d991c74"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/prop-pack-contract.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/prop-pack-contract.md",
+      "sha": "6ce91ba34dedfc0083ab7f365d72d977b332c975"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/references/side-scroll-stages.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/references/side-scroll-stages.md",
+      "sha": "afb539d8689f266f43ca611f0153e4e4f2889b8d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/scripts/compose_layered_preview.py",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/scripts/compose_layered_preview.py",
+      "sha": "51067b81cc346aff90a852fac69eb9dd89620ec3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dmap/scripts/extract_prop_pack.py",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dmap/scripts/extract_prop_pack.py",
+      "sha": "96481293b8d46201d0d487fa369b72da20034fd9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dsprite/references/modes.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dsprite/references/modes.md",
+      "sha": "2b9eacf007ef4708b50bf393bd6728f4cf44ec46"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dsprite/references/prompt-rules.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dsprite/references/prompt-rules.md",
+      "sha": "cdff58166f4f760c8611262a96ede3627d034296"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dsprite/scripts/generate2dsprite.py",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dsprite/scripts/generate2dsprite.py",
+      "sha": "dc4d9fc405d0ebeea1add3ced7ed045244ecde59"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/generate2dsprite/scripts/make_layout_guide.py",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/generate2dsprite/scripts/make_layout_guide.py",
+      "sha": "8ab453ca6c0b7c52631bfecc5b7264cfd88065bc"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/multiplayer-p2p/references/react-binding.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/multiplayer-p2p/references/react-binding.md",
+      "sha": "aefad2345c44abab10e838424c432295977bf7bc"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/multiplayer-p2p/references/signaling-relay.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/multiplayer-p2p/references/signaling-relay.md",
+      "sha": "ea26a2748ffa6f90e79e2dc1aa155f69bf573b9e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/references/brand-pass.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/references/brand-pass.md",
+      "sha": "14a096176c10efb2cc3c9e88e91fcd2cc7fc0df3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/references/custom-card.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/references/custom-card.md",
+      "sha": "6fdcf98c3465c1b3dca706c2451f201ec1223a92"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/references/favicon-and-icons.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/references/favicon-and-icons.md",
+      "sha": "e6d324534f9cdc7d0fc24c75c405aa89306d745d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/references/og-type-contract.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/references/og-type-contract.md",
+      "sha": "7fbb98d58981ff79277e8ddbccb2b938d15efba6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/references/placeholder-card.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/references/placeholder-card.md",
+      "sha": "6aecb32e71fb0bab03141cd83832506018666e14"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/og/references/x-banner.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/og/references/x-banner.md",
+      "sha": "a070fd474925641ede93a471c52a561e279a1bf0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/threejs/references/llms-full.txt",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/threejs/references/llms-full.txt",
+      "sha": "a960fd82fc38dbeb9a6f0bf37eb905ae58f6e49b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/video2dsprite/references/pipeline.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/video2dsprite/references/pipeline.md",
+      "sha": "0d6fb8fae522e0f58c74a58794cfe9f3e04721e9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/video2dsprite/references/prompt-rules.md",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/video2dsprite/references/prompt-rules.md",
+      "sha": "3b0899327addda51c0578d4218d42a53e4a9e781"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/.grok/skills/video2dsprite/scripts/video2dsprite.py",
+      "canonical": "projects/vitality-chems-storefront/.grok/skills/video2dsprite/scripts/video2dsprite.py",
+      "sha": "d84f4886174348b6c541928d35c5a5491ecc0fab"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/icon-180.png",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/icon-180.png",
+      "sha": "e9d2ac1c646a76979136bb2f8b2c483d81a33f54"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/ads/sema-hero.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/ads/sema-hero.jpg",
+      "sha": "fe3c3770e8b9f8688007c0e9ae3319f0a45eb0c4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/brand/hero-bg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/brand/hero-bg.jpg",
+      "sha": "1ccb465c9267143a85c1d9794cff74b086cc6f97"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/brand/logo-64.png",
+      "canonical": "projects/vitality-chems-storefront/public/brand/logo-64.png",
+      "sha": "6ca465bea2023e03aeea9a564b2eaf7c19faa62d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/brand/logo-lockup.png",
+      "canonical": "projects/vitality-chems-storefront/public/brand/logo-lockup.png",
+      "sha": "cecde1ba0c7fe0362971f8091f3244d8e6390091"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/brand/logo.png",
+      "canonical": "projects/vitality-chems-storefront/public/brand/logo.png",
+      "sha": "701e20b1ce5ae05ac116e7ca0196bd4ea69eb063"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/brand/popup-vial.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/brand/popup-vial.jpg",
+      "sha": "7517d58b39db7cefca6b2fee22adacaa0650855e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/bpc-157-10mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/bpc-157-10mg.jpg",
+      "sha": "3800f70f88507ef730ebce99dfd1f8977510ac1f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/bpc-tb-blend-10mg-10mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/bpc-tb-blend-10mg-10mg.jpg",
+      "sha": "cc403e604734e82a9fede1558725d9d6317331e8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/ghk-cu-100mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/ghk-cu-100mg.jpg",
+      "sha": "1a4e7a8edd7f4a5532989bb16c699f352fdd35b0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/retatrutide-10mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/retatrutide-10mg.jpg",
+      "sha": "22bc14b8a7972efcd1e6c762ddb4f276de80def6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/retatrutide-20mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/retatrutide-20mg.jpg",
+      "sha": "0e6341d85a3c686196a3a7686be28a2b4530230c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/retatrutide-30mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/retatrutide-30mg.jpg",
+      "sha": "773645996c591b0415df74844d74c975aeba8d4a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/tb-500-10mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/tb-500-10mg.jpg",
+      "sha": "ffbb3b49cfa508959bdacbc35b5adcb4ecdc715e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/coa/tesamorelin-10mg.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/coa/tesamorelin-10mg.jpg",
+      "sha": "647117a628b6a2a914a36d4be9b2105f3d980d48"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/og/preview-no-box.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/og/preview-no-box.jpg",
+      "sha": "f94428ef763ea8abf442d66ce3d99c5466dfa22a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sets/set-a.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/sets/set-a.jpg",
+      "sha": "f847f9e625ca11bb09de146f39fe2a108184109e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sets/set-b.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/sets/set-b.jpg",
+      "sha": "c7e0c044530806da4cf2ba78aa57ad64566ba771"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sets/set-c.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/sets/set-c.jpg",
+      "sha": "8edf952b2635ffd6f6fb922a1098a2abadd5e4a9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sets/set-d.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/sets/set-d.jpg",
+      "sha": "d60d8d88a9b6feacd1c1d8231383a35e165ebccc"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sets/set-e.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/sets/set-e.jpg",
+      "sha": "3be9f365b9335be5e2c3609d927669db849a60bf"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/sets/set-f.jpg",
+      "canonical": "projects/vitality-chems-storefront/public/sets/set-f.jpg",
+      "sha": "6ea642d5d62b7429590aa1b64f10ea25399d22d4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/styles.css",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/styles.css",
+      "sha": "445d3afc7d8ef0cf76eb87640ab698a31b0476c8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "sha": "df0defc5e1a653dd83304cac5fce08f3dd5fc0a0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/assets/homescreen/glass-share.svg",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/assets/homescreen/glass-share.svg",
+      "sha": "051eb8931f8bacb7499f840cf39140f705a6ff0e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/assets/homescreen/logo-grok.svg",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/assets/homescreen/logo-grok.svg",
+      "sha": "930144f4d3ac08286b6bbe475c880a01804e4601"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/assets/homescreen/ob-ipad.png",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/assets/homescreen/ob-ipad.png",
+      "sha": "c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/assets/homescreen/ob-phone.png",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/assets/homescreen/ob-phone.png",
+      "sha": "1862fb7fd7fbe1fe8098edfde67923a027486779"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/__grok/install/assets/homescreen/plus.svg",
+      "canonical": "projects/vitality-chems-storefront/public/__grok/install/assets/homescreen/plus.svg",
+      "sha": "bc893abc91f74e2f8a3d12803e8cabbdcda8311f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/5-amino-1mq-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/5-amino-1mq-5mg.webp",
+      "sha": "4702fe527583a07992084fbc9d001194e98173ed"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/aod-9604-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/aod-9604-5mg.webp",
+      "sha": "08fd5dd002bb63dbdc0b631463c60559e69e2bed"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ara-290-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ara-290-10mg.webp",
+      "sha": "ec0619cc10d8f2e8508fbddb6f9ae85fc32ec62b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/bpc-157-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/bpc-157-10mg.webp",
+      "sha": "b13ad3e53332be1bbbe8a4e0edc87d3cbe3e01f6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/bpc-157-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/bpc-157-5mg.webp",
+      "sha": "fa965daa9e67665eeaba305d54952635654e392a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/bpc-tb-blend-10mg-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/bpc-tb-blend-10mg-10mg.webp",
+      "sha": "cd3582f995a669dddce6257d970fca4d6fbfc6e2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/cagrilintide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/cagrilintide-10mg.webp",
+      "sha": "460b4f9201d2df715718e9713694538a5247e9ff"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/cjc-1295-no-dac-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/cjc-1295-no-dac-10mg.webp",
+      "sha": "199ae55065a0265f438435099fe779ef4aed4d55"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/cjc-1295-no-dac-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/cjc-1295-no-dac-5mg.webp",
+      "sha": "6d78c0e8499df9eb8ac857516bd193f4ea99cbd8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+      "sha": "e4e655b9e2c2863aa41f6ea529f20462841a18c1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/cjc-1295-with-dac-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/cjc-1295-with-dac-5mg.webp",
+      "sha": "093cefe4fb5f985efed2784a6ccc457b1bda75bf"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/dsip-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/dsip-5mg.webp",
+      "sha": "696038832e0db9a142bf43b531232883c754da44"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/epithalon-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/epithalon-10mg.webp",
+      "sha": "33cd1bb42d7883b68af8ed30a5cfd010740ffe50"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/epithalon-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/epithalon-50mg.webp",
+      "sha": "4bd9b0897e2d08a896f984c0acc2b914267b8d6f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/frag-176-191-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/frag-176-191-5mg.webp",
+      "sha": "35670c7caf879458f0d8417dc46b1adef45a109b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/generic-vial.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/generic-vial.webp",
+      "sha": "87c6c87c413cbece9c6bab11b88499ed6e7d5a2c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ghk-cu-100mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ghk-cu-100mg.webp",
+      "sha": "c42c20678d34891aab387f20f4323b8f215a8830"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ghk-cu-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ghk-cu-50mg.webp",
+      "sha": "08eb807166fe3dc682466934baad18b4b8e6a509"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ghrp-2-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ghrp-2-10mg.webp",
+      "sha": "91f8cfde8e2136c3490535a76277034719b722f5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ghrp-2-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ghrp-2-5mg.webp",
+      "sha": "d93aa1b02f4d82f64ef6e69bbb385e89c8295317"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ghrp-6-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ghrp-6-10mg.webp",
+      "sha": "3bdf1824fbe48d9443e54232cfd2df8bbf27af74"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ghrp-6-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ghrp-6-5mg.webp",
+      "sha": "cbcc52c79b18a2102283727b175bd8a835322b5f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/glow-10-10-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/glow-10-10-50mg.webp",
+      "sha": "9233f075dbd01feddb4b7871332cf30446fa9285"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/hcg-5000iu.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/hcg-5000iu.webp",
+      "sha": "40453cc249ee0af070d7c18b6b20a152dbc50ad6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/hexarelin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/hexarelin-5mg.webp",
+      "sha": "83677de5fd48b5c7f317d3ffebc8d620c0924818"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/igf-1-lr3-1mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/igf-1-lr3-1mg.webp",
+      "sha": "46302fdd8703b9e9ad57d477f7fee97ab2f6d40c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ipamorelin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ipamorelin-10mg.webp",
+      "sha": "99dffb6ee720bce7065c9393d25a30e551ad8d7d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ipamorelin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ipamorelin-5mg.webp",
+      "sha": "fe5d9e824e3ab4be8b86efe404be0031e918af3b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/kisspeptin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/kisspeptin-5mg.webp",
+      "sha": "3163e00c75e200e4a677330f6f244c4c1311936c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/klow-80mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/klow-80mg.webp",
+      "sha": "b6fd4bda93520803ad4cf2794f9b35da75ebcbfe"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/kpv-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/kpv-10mg.webp",
+      "sha": "12fe569c1e92af9709f540f212127bdd7e5ddcdb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ll-37-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ll-37-5mg.webp",
+      "sha": "6039691dfed45585aaf72a1a9f7632928265ebae"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/mots-c-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/mots-c-10mg.webp",
+      "sha": "2adbda90cb3b0143ef136d01c898653090e73daf"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/mots-c-40mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/mots-c-40mg.webp",
+      "sha": "4f5e6ab883dccb2d081522d3f57406cc7f5fa70d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/mt-2-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/mt-2-10mg.webp",
+      "sha": "999c6805e7e8b4f11bcb893c93675eed46068791"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/nad-500mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/nad-500mg.webp",
+      "sha": "eed604ba073963bb1bbbe6513241d5d519522153"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/oxytocin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/oxytocin-5mg.webp",
+      "sha": "4982681643fe0fa0cbc76c9ec63d0d867781e140"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/pinealon-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/pinealon-10mg.webp",
+      "sha": "a8fa08fb8b753ef88621a19a1a351df0f3a61512"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/pt-141-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/pt-141-10mg.webp",
+      "sha": "cd374158d5ea9baafc5b5bb6df7194226a52ad9e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/retatrutide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/retatrutide-10mg.webp",
+      "sha": "ccae74e9caac1c5b624ef5f672b6e2a264117afe"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/retatrutide-20mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/retatrutide-20mg.webp",
+      "sha": "6dc5b328403dd63b8ce23908390e442be930e937"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/retatrutide-30mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/retatrutide-30mg.webp",
+      "sha": "2bb86041073f99f4a05f9fd6c4aa3b7a2eb0ed0f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/selank-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/selank-10mg.webp",
+      "sha": "b3039a3d23019ef164cb50d2a3a59549f87af410"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/selank-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/selank-5mg.webp",
+      "sha": "81a555db0bf29b21d6129ed2a81d95070c92874e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/semaglutide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/semaglutide-10mg.webp",
+      "sha": "dc01624697bdb8e434a2f907b5fc4fabb8d9b346"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/semaglutide-15mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/semaglutide-15mg.webp",
+      "sha": "c2db109fa9807d5c0e8dcab2df720522b4449828"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/semaglutide-20mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/semaglutide-20mg.webp",
+      "sha": "18a9c037a83d7b42c37e9abcf0c10a0e6b9889cb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/semaglutide-30mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/semaglutide-30mg.webp",
+      "sha": "e2daeb0a8dde0752845d25820673b00dacaf275b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/semaglutide-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/semaglutide-5mg.webp",
+      "sha": "23268c20f806e58b2e0ccc0fce66a35c623b471b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/semax-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/semax-10mg.webp",
+      "sha": "5a71e085eb41904e715ac1b2c59df7a861e8d38c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/sermorelin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/sermorelin-10mg.webp",
+      "sha": "ce78a49bfb41bb2c3d08ce51e590cbf8b63d8e3f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/snap-8-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/snap-8-10mg.webp",
+      "sha": "51a2d914a5668a1296b2ca118d87fdb1de987360"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ss-31-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ss-31-10mg.webp",
+      "sha": "70f9fbc5237a7130308bada96cf9d5a3a4b5b5b5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/ss-31-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/ss-31-50mg.webp",
+      "sha": "11e52a72d25b24cdc309095b42555c3e159ee018"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tb-500-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tb-500-10mg.webp",
+      "sha": "dbd95421d39b52e1ecb7bae165a893bee1dc6fac"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tb-500-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tb-500-5mg.webp",
+      "sha": "48b12c5f4056b7bd7b7503d993a4df67eb03dc8e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tesamorelin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tesamorelin-10mg.webp",
+      "sha": "0caac2d68c3fbddcdb1dc0da68d83f32a26a46cd"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tesamorelin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tesamorelin-5mg.webp",
+      "sha": "f015abba13b660f0bc7f61544dd026c957564d8c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/thymalin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/thymalin-10mg.webp",
+      "sha": "520073eefe60a03abb6ccb6defa6a6a33521d639"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/thymosin-alpha-1-ta1-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/thymosin-alpha-1-ta1-5mg.webp",
+      "sha": "175bd64040e53ee04299a6fb1bd9a32543bec6b1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tirzepatide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tirzepatide-10mg.webp",
+      "sha": "3748bfac6231db80ecafb81a30a2a5d4f4fd32fa"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tirzepatide-15mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tirzepatide-15mg.webp",
+      "sha": "36336be64e07b13c55c2437145e1368b9ddb7029"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tirzepatide-20mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tirzepatide-20mg.webp",
+      "sha": "091c5401d3b0419404d360ded9d4f7aea8dddb4a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tirzepatide-30mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tirzepatide-30mg.webp",
+      "sha": "3bb6bc3492da324e44218c9f6b83a176543bdf7e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/tirzepatide-60mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/tirzepatide-60mg.webp",
+      "sha": "a664bfb66b229a392ed9029382fcd4b579afe650"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/public/product-images/w400/vip-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/w400/vip-10mg.webp",
+      "sha": "8f3ac1ba8b07d1362f3d1fcdb377628816a548f4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/server/middleware/grok-pwa.ts",
+      "canonical": "projects/vitality-chems-storefront/server/middleware/grok-pwa.ts",
+      "sha": "1575de8f0a478af1482b3b9fae8c5a7ad0c06230"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/admin-investors.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/admin-investors.tsx",
+      "sha": "5f91006acf3f3537ded94caf20323ee8d201f378"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/admin-pnl.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/admin-pnl.tsx",
+      "sha": "45691d9ad8771b731b191b88d119be740d45b3b2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/age-gate.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/age-gate.tsx",
+      "sha": "6f7a72e91ffb6107468edd56a1193d9e3cdcf7f4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/analytics-tracker.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/analytics-tracker.tsx",
+      "sha": "430ce133269af156cffbce315db337eead44ee07"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/cart-drawer.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/cart-drawer.tsx",
+      "sha": "03f742db4a13859313d563acb8cdd7edeba0d899"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/cart-hydrator.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/cart-hydrator.tsx",
+      "sha": "1ada900a21783e1d5810e58e8ad54fb8b0923f7c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/preview-host-bridge.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/preview-host-bridge.tsx",
+      "sha": "98cb15d443328b2fdb5d9ae9e3bdab0eff453612"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/product-card.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/product-card.tsx",
+      "sha": "ce8c2a59f1e2c27bf575151f5c61485f41f50f44"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/product-info.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/product-info.tsx",
+      "sha": "af03627ba6891ed8e1c07ff24394d51f00927242"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/promo-field.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/promo-field.tsx",
+      "sha": "3b555e41f83f6a8e97fe143ee753d5cdf439fc65"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/research-chat.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/research-chat.tsx",
+      "sha": "058b42bbf76eef7775f44d19860ebd9aa4c1f526"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/sarm-card.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/sarm-card.tsx",
+      "sha": "1c35f028e6bb7e40c0f9a563b46650eefb15edd5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/savings-nudge.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/savings-nudge.tsx",
+      "sha": "586e5066aecf3daf95f923ef6864830c90adc986"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/search-overlay.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/search-overlay.tsx",
+      "sha": "436001c2a8db2743426387168702be037f11e442"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/set-card.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/set-card.tsx",
+      "sha": "c26a7e27146546fbc2cc45018d2dc1d6a769783d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/site-footer.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/site-footer.tsx",
+      "sha": "3becb11eafbfc8fb8c69c7ef3233389fd2f54c7f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/site-header.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/site-header.tsx",
+      "sha": "1033495c89ac76cbf8d9cd390e0350e8d9fec77a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/social-proof.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/social-proof.tsx",
+      "sha": "24e9e7277a7d1ac98b40a8e8b4445bfed19d47ed"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/vial-3d.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/vial-3d.tsx",
+      "sha": "e74bd03814631d15680847f2d30cfd8cfb733184"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/components/welcome-popup.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/components/welcome-popup.tsx",
+      "sha": "06955dc589be61ccb44b2bc944d52eb2d76f6a49"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/business.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/business.ts",
+      "sha": "2fca9c6035fdc715c4f762259c2887645817030e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/cart-store.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/cart-store.ts",
+      "sha": "11dd77890decabbaa2a26b74ab2dc943e59754d8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/catalog-policy.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/catalog-policy.ts",
+      "sha": "98a0c1341c81c899547b9ad7bcbd4dd2c04e6aa9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/catalog.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/catalog.ts",
+      "sha": "0596b215648820c2a1f06168e2b2c347fa2c1000"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/coa.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/coa.ts",
+      "sha": "e0b2d2f2018eec181d74136d14e1c0d1d21143b4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/db.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/db.ts",
+      "sha": "49777ade8f9d5613a25f7b5272a6bf88edbe709a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/env.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/env.server.ts",
+      "sha": "48ef4547042b375f03bd93cae5c832ae484321d3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/error-component.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/lib/error-component.tsx",
+      "sha": "9fb42aeee67718f9f9f97b48bfade96dcf8d6dc3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/families.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/families.ts",
+      "sha": "d52e8659be95a01c844276112231ba1eb0315351"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/growth.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/growth.ts",
+      "sha": "857f2eb9f8869abe4d87d85a12cc4784845b0340"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/investor-model.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/investor-model.ts",
+      "sha": "e88fb96c37f9cf41beb1cab20d24c594c1d04cf8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/legal.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/legal.ts",
+      "sha": "2f8c230fe5faa23579f0e1e640cd3682f8beac84"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/optimizer.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/optimizer.ts",
+      "sha": "9aadf07251f983c6b76eb33c5e493ae5e6d49304"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/photo-map.json",
+      "canonical": "projects/vitality-chems-storefront/src/lib/photo-map.json",
+      "sha": "37d8f84ad190c2c53eadc5bdbe3ef3ddf4bb77ae"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/preview-embedder-origin.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/preview-embedder-origin.ts",
+      "sha": "0c248bc9ff13421683d0edc75c7a5c75bdd4318d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/preview-host-bridge.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/preview-host-bridge.ts",
+      "sha": "2fe46b14516370df8ce3e3747c3ba227bf414e2d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/pricing.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/pricing.ts",
+      "sha": "3a52ab7c1d849b379122c44c8642c063d64e105f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/product-science.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/product-science.ts",
+      "sha": "10c832fd005c0bdb486997df0a79bdb6df5d6f49"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/promo.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/promo.ts",
+      "sha": "21a8593a594cb9d7a9422f8f1bf3eb13aafce322"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/seo.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/seo.ts",
+      "sha": "3993a7bbe7535684a1611956923ab6eeebde132c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/session-id.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/session-id.ts",
+      "sha": "bc1dd247cb1d12ee08804409728d7ecabaee6c25"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/site-url.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/site-url.ts",
+      "sha": "f825c9237675cb4099a14bd5f9510fd753c0a511"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/store-api.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/store-api.ts",
+      "sha": "5b36802aa5ea2f2709cee97fb2578c1124796982"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/use-lab-credit.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/use-lab-credit.ts",
+      "sha": "bf9399310b0bd47d30db1d8adcc89396c05a5751"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/utils.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/utils.ts",
+      "sha": "368d9a39e4e7e76015b42d30b5225355f9a28405"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/vial-photos.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/vial-photos.ts",
+      "sha": "9bc46c5ba8066edad1e5013c3fbd1f1d496dc8f9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/wholesale-tiers.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/wholesale-tiers.ts",
+      "sha": "0b9e032cc4630ef0ec8f4fa0b5da055f9c1a2b9e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/wholesale.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/wholesale.ts",
+      "sha": "f6c7a423237ef8253070777a7eb2236d6d172cab"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/__root.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/__root.tsx",
+      "sha": "58fd162c098ecbdc406b5aa67ccc34e2f396169f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/account.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/account.tsx",
+      "sha": "60cccb4cbe173c4632b41ccd077541e5ae4d3687"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/admin.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/admin.tsx",
+      "sha": "74831fd9b36ce7ef03793b7c3d19d62135fafda6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/affiliates.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/affiliates.tsx",
+      "sha": "0c0687eb05d9c75c4bfed50d8ac675c50803d88a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/checkout.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/checkout.tsx",
+      "sha": "2c7176c5cff1a16dfc5fecf6c2b69ce12a7a46f1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/contact.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/contact.tsx",
+      "sha": "7a740f3152cbfdf19e6f023c4859cdd6a3343fa0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/index.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/index.tsx",
+      "sha": "4edb7d63fc230324f46ce1ff2a125f9a140eb2e5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/legal.privacy.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/legal.privacy.tsx",
+      "sha": "8bae339b02c6e46e81b0995db693bbc57f435453"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/legal.research-use.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/legal.research-use.tsx",
+      "sha": "3c8788919d441ceebc26857ad51e79e6202054aa"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/legal.returns.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/legal.returns.tsx",
+      "sha": "c4d1167d6071004c4bd21ba11362664084c47817"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/legal.terms.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/legal.terms.tsx",
+      "sha": "3e2b34c1969a14ffeb5d03e83e848aeeada3f191"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/login.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/login.tsx",
+      "sha": "3956a8046a4032b8cbeea99670a27d637e0fad76"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/product.$id.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/product.$id.tsx",
+      "sha": "3ddb9a6cea04edd82ff27c1a95c266d26ccd2239"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/subscriptions.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/subscriptions.tsx",
+      "sha": "b547fcd231cda1fd0bec4977bf603fc5de94ab7c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/testing.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/testing.tsx",
+      "sha": "bb81af82570730d701b37945803b7508b6f6a983"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/wholesale.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/routes/wholesale.tsx",
+      "sha": "517caeab748f40d31e08e850a27513f43f71f174"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/app-data.test.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/app-data.test.ts",
+      "sha": "5788361653ce7dcc086b2857f3c61531aaf00b31"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/client.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/client.server.ts",
+      "sha": "c0c35e2ab54193afedb02d66ccdd557e03a3aeaa"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/errors.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/errors.ts",
+      "sha": "81c4d6794ad611231bc651f822c6e3c840f41195"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/index.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/index.ts",
+      "sha": "59014187bb20de5e0b672bbc74765c99e10a1e16"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/login.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/login.ts",
+      "sha": "e3d9dc937c6764a1eaecd77e74b411f3415a9501"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/readiness-schedule.test.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/readiness-schedule.test.ts",
+      "sha": "9a19189d2de446bbd2e0f81c7e4e8173896bbbb1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/readiness-schedule.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/readiness-schedule.ts",
+      "sha": "fe7e4d4baad5019377961146aa9af14e5896aeb6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/readiness.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/readiness.ts",
+      "sha": "dd3865c4e7b466975bfe140f77722b1840e705cb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/server-only.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/server-only.ts",
+      "sha": "27567c57626c596986c681e119bf78d4cf67b201"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/types.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/types.ts",
+      "sha": "1135d15ce5ca90cb32b4cbf27acc9ad85128230b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/app-data/use-connector-readiness.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/app-data/use-connector-readiness.ts",
+      "sha": "da88442efa6a56d5289d378f3bdc1d6998896ad1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/client.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/client.ts",
+      "sha": "d3b267d3de8b9d5e31545ee56ed7a3ff240c601d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/email-password.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/email-password.ts",
+      "sha": "de78c5714a6131947c043989afbe064063233da2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/gate-identity.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/gate-identity.server.ts",
+      "sha": "87c22a8a762200c7d4ce2736949f3a23ffbd4a9a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/gate-identity.test.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/gate-identity.test.ts",
+      "sha": "02cf0269fe3cdbcba3d96be110264f94e0cdea13"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/gate-session-marker.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/gate-session-marker.ts",
+      "sha": "4ae838d57956d66ed2f67c8d202636880e0423c2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/gate-session.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/gate-session.server.ts",
+      "sha": "224c9653923daaca70dbec5a53fc51a3ef62ed97"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/gates.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/gates.tsx",
+      "sha": "ede7bcdd2e3901d565a2eb128c978dca9aa847e5"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/isolation.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/isolation.server.ts",
+      "sha": "f070e0801221046b3a1c26954cc714250addecff"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/middleware.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/middleware.ts",
+      "sha": "c6a734242f2a63c02e365eb7303a0238b3b5bf5c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/pglite-dialect.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/pglite-dialect.ts",
+      "sha": "e23357c3a027360d55ad37c018883111976687d9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/popup.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/popup.server.ts",
+      "sha": "9e686ae29e2b0463b7868ce755dd066479ebe8a3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/preview.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/preview.ts",
+      "sha": "7e6e6580a51ed1f4f87ffc27a9fce772085c1011"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/provider.tsx",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/provider.tsx",
+      "sha": "4dd72618670f44c166ff93da6020a71ab8046f05"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/providers.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/providers.ts",
+      "sha": "cd53b6faf1bf1ba4cef1193c42e533401bec4e65"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/server.ts",
+      "sha": "66d94be9eb10e78fe46e2da2e7d950eef82580d0"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/sign-in-gate.test.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/sign-in-gate.test.ts",
+      "sha": "6b66a33ea9a0856c23661099dfc7d368dc022dff"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/sign-in-gate.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/sign-in-gate.ts",
+      "sha": "636893c147464d35caac3982dad48f53694dc63e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/use-current-user.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/use-current-user.ts",
+      "sha": "bf9d3affa6417e89b36785a567a6ac05ddcf8429"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/auth/verify.server.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/auth/verify.server.ts",
+      "sha": "2bf5acc72dd13134b1ec86781aa7591e1b2dca5c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/multiplayer/index.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/multiplayer/index.ts",
+      "sha": "431865e237e5098f378ddb923dfa30716a632f86"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/multiplayer/p2p.ts",
+      "canonical": "projects/vitality-chems-storefront/src/lib/multiplayer/p2p.ts",
+      "sha": "3dff0109c67f9d2790bf22be439f3298871f5253"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/lib/og/site.json",
+      "canonical": "projects/vitality-chems-storefront/src/lib/og/site.json",
+      "sha": "b853982784b36c5d13d45ce798cd1ddee8d15deb"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-workspace/src/routes/api/auth/$.ts",
+      "canonical": "projects/vitality-chems-storefront/src/routes/api/auth/$.ts",
+      "sha": "e5dbc1a83b9ff81477719b6164fe8e6ed33b312a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/00_MASTER_INSTRUCTIONS_FOR_GROK.md",
+      "canonical": "docs/grok-packet/00_MASTER_INSTRUCTIONS_FOR_GROK.md",
+      "sha": "28d66244f7a09bd6f8957b989af8bfc742482a22"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/01_PROJECT_BRIEF.md",
+      "canonical": "docs/grok-packet/01_PROJECT_BRIEF.md",
+      "sha": "f8fc2b28905efb9ec35991fb2b63fbf79b60b275"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/02_IMPLEMENTATION_STATUS.md",
+      "canonical": "docs/grok-packet/02_IMPLEMENTATION_STATUS.md",
+      "sha": "8e469bf2fa91f3727ffaf9493099acd9c8737e51"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/03_PRIORITIZED_ROADMAP.md",
+      "canonical": "docs/grok-packet/03_PRIORITIZED_ROADMAP.md",
+      "sha": "47e29270fe16f122a395a8b1b9b1630caeed8955"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/05_SOURCE_APPENDIX.md",
+      "canonical": "docs/grok-packet/05_SOURCE_APPENDIX.md",
+      "sha": "35361808f7c6bedb3aac72a54c5131b927708f44"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/08_SCOPE_AND_OMISSIONS.md",
+      "canonical": "docs/grok-packet/08_SCOPE_AND_OMISSIONS.md",
+      "sha": "6705d1ed0e4e39898db728127a48eb814532e328"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/09_ARCHIVE_REVIEW_AND_CLAIMS.md",
+      "canonical": "docs/grok-packet/09_ARCHIVE_REVIEW_AND_CLAIMS.md",
+      "sha": "c90af3e678ad3d644cbd771f300e4c7850449601"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/README.md",
+      "canonical": "docs/grok-packet/README.md",
+      "sha": "b565accb404dc67e9c5c25f72ec2a29467641c9e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/INDEX.md",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/INDEX.md",
+      "sha": "2de5bd4492f033d97a52471c5ba7b0ae5b6489e3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/package.json",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/package.json",
+      "sha": "7e52269c0e9f2c39186d25ece31f66f472bfc4a4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/README.md",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/README.md",
+      "sha": "eac7d73991d86e1da5462ca0559eee0edae56740"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/tsconfig.json",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/tsconfig.json",
+      "sha": "10c1c4fb5d44db6aa2da5f8f7a78e6047b068302"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/vite.config.ts",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/vite.config.ts",
+      "sha": "d8e5aa729ead637eb6ae071eecab4516417ca8db"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/README.md",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/README.md",
+      "sha": "1c4f3a5aaf17c87cdc4b8874b5df7b5f24d6ec7f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/standalone-tessera-service/package.json",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/standalone-tessera-service/package.json",
+      "sha": "b3bfd5ddde395a4f02f458b6a5e846f61eae15e6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/standalone-tessera-service/simulation.mjs",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/standalone-tessera-service/simulation.mjs",
+      "sha": "9f0b170870d60a6670306e69eccc06fded8a2c32"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/README.md",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/README.md",
+      "sha": "982a5263df34ca4236f8ab85ca6393db286297a8"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/user-provided-text-36218f678f30.txt",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/user-provided-text-36218f678f30.txt",
+      "sha": "965fc97e370525525dfba4d822aa50b93fd8f8b2"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/user-provided-text-74137ff6a37b.txt",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/user-provided-text-74137ff6a37b.txt",
+      "sha": "2e28ced211afe55b1be027a83e9131b4ed0948ed"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/README.md",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/README.md",
+      "sha": "9e019e43e3782ba91b42472745b53162cbcd0782"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/src/index.css",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/isolated-mockup/src/index.css",
+      "sha": "75160b5e1cf5b08ccd3f4701b30f0d01499422cd"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/src/simulation-provider.mjs",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/src/simulation-provider.mjs",
+      "sha": "6de4e99e7c78991d00851d937dc2c08a6d37bd78"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/5-amino-1mq-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/5-amino-1mq-5mg.webp",
+      "sha": "d9e2a15d3285d35cf1623861c03dd4d7f61282fa"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/aod-9604-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/aod-9604-5mg.webp",
+      "sha": "8e26595f18fb5edc1dc491c2f931f463b0587d81"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ara-290-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ara-290-10mg.webp",
+      "sha": "99b39d7def0468553dc4f1a835c405c1c86e5e4a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/bpc-157-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/bpc-157-10mg.webp",
+      "sha": "3aee685b1c26ba5478b688d425ad461bef033aaa"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/bpc-157-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/bpc-157-5mg.webp",
+      "sha": "2ae24143a940ea4669d657f4cb223b3c9e55a322"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/bpc-tb-blend-10mg-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/bpc-tb-blend-10mg-10mg.webp",
+      "sha": "c5fbc1a8560b34fbe4b1339b85d8a2625e16af31"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/cagrilintide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/cagrilintide-10mg.webp",
+      "sha": "bb50ae2583fec6e2e56d4c0844cbec68b71e8be1"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/cjc-1295-no-dac-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/cjc-1295-no-dac-10mg.webp",
+      "sha": "c0333f62322cee665c88e9e3ea0acb37ec14c81c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/cjc-1295-no-dac-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/cjc-1295-no-dac-5mg.webp",
+      "sha": "00e097395e7bfb0b5eac86d926fecb3da0d16d2e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+      "sha": "d9112633a7c3269740b4f4b9570c7a5b49a15ba3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/cjc-1295-with-dac-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/cjc-1295-with-dac-5mg.webp",
+      "sha": "9ca6dc1c423a1b41cda40dc43efa678a2f165bf6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/dsip-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/dsip-5mg.webp",
+      "sha": "97751254d7d196abc19451dde5474b572829df63"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/epithalon-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/epithalon-10mg.webp",
+      "sha": "e91ada210165057f7e61858656cea067433e32d6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/epithalon-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/epithalon-50mg.webp",
+      "sha": "f1ac51068238dc9e90e9d2831301bc4ccb82bb08"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/frag-176-191-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/frag-176-191-5mg.webp",
+      "sha": "af0871662bb6b0c5a336070b0ab1436c243d7657"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/generic-vial.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/generic-vial.webp",
+      "sha": "b5121b9626064c84a6de219810ca68b963f459f6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ghk-cu-100mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ghk-cu-100mg.webp",
+      "sha": "865ed803421648ab6a549c260c5ace0cef668b23"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ghk-cu-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ghk-cu-50mg.webp",
+      "sha": "b3490424b10ff3881c078c5821535b0838c40b9c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ghrp-2-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ghrp-2-10mg.webp",
+      "sha": "67d35188e9bbc60db066f39590ebc31486d25494"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ghrp-2-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ghrp-2-5mg.webp",
+      "sha": "3323a8953504ef73ae689d1ffed6c14f97766943"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ghrp-6-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ghrp-6-10mg.webp",
+      "sha": "830e39777f0fb0b05a8d19e06da9fe4a55f0543d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ghrp-6-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ghrp-6-5mg.webp",
+      "sha": "e8d85062a860299193d02e7f2c445c0da080f527"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/glow-10-10-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/glow-10-10-50mg.webp",
+      "sha": "fa460b3ac5157bd7106a8af2e712d4a252fdde6a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/hcg-5000iu.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/hcg-5000iu.webp",
+      "sha": "5aa836b9dbdc302c05414ef86821d62fa34d1c7c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/hexarelin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/hexarelin-5mg.webp",
+      "sha": "97bd503a8d834bd45271528380ccf293cfad03d6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/igf-1-lr3-1mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/igf-1-lr3-1mg.webp",
+      "sha": "08aaec940949df9650a9c7b8063a799ac5402d7c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ipamorelin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ipamorelin-10mg.webp",
+      "sha": "994600c2fb55777aef8a133e9ab8a18ecd4e1b43"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ipamorelin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ipamorelin-5mg.webp",
+      "sha": "4aab55fac25467b58d306eaa48d67549632d0974"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/kisspeptin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/kisspeptin-5mg.webp",
+      "sha": "e57e742f236df36f025da356c12a3666362484b6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/klow-80mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/klow-80mg.webp",
+      "sha": "222242234dd2057a5d53dc0e43c3af4c188908a4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/kpv-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/kpv-10mg.webp",
+      "sha": "4fd547f966b42b445f543f6e7f0957401e93e875"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ll-37-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ll-37-5mg.webp",
+      "sha": "6992741b7648b4dbfc50b8ac749aad53975ba02c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/manifest.json",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/manifest.json",
+      "sha": "a7c87f6f5bf8226525fa2bd8681b662a94b88f2c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/mots-c-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/mots-c-10mg.webp",
+      "sha": "a089f6fe9ca7055e6fb379a0ba5aab9a4bb1b00f"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/mots-c-40mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/mots-c-40mg.webp",
+      "sha": "96ca78eb5bc8d26b44596315fe649dd8e42bf3ec"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/mt-2-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/mt-2-10mg.webp",
+      "sha": "5bc6abdaf18e65e851bd22d409a09d97baa59f6c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/nad-500mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/nad-500mg.webp",
+      "sha": "196da9b106a17ede8493a73e775cf93a2f9a042d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/oxytocin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/oxytocin-5mg.webp",
+      "sha": "599a07092ac07274c38bf23efe6dfcc073090cd3"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/pinealon-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/pinealon-10mg.webp",
+      "sha": "3f390c22c1477c2dc4ac6c2624629a4f8ac7e5e9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/pt-141-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/pt-141-10mg.webp",
+      "sha": "080684619506c6e36ec37dd30c1e8f1299ac01ae"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/retatrutide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/retatrutide-10mg.webp",
+      "sha": "548377976f7136ac557461d37b07f3a0b627290e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/retatrutide-20mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/retatrutide-20mg.webp",
+      "sha": "57f425b323260fe06127fb3626c1a839428540da"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/retatrutide-30mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/retatrutide-30mg.webp",
+      "sha": "2d73205f9a2f3ce00b4aa79175eb79a2bb97d4ab"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/selank-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/selank-10mg.webp",
+      "sha": "1e3c82bdf76882639323606280a2f6fb5f604585"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/selank-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/selank-5mg.webp",
+      "sha": "ee5e95279649707d225d25395b395f639e91fd7b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/semaglutide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/semaglutide-10mg.webp",
+      "sha": "df59ee31a106af0e4b095b8410f6a74df00e7d78"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/semaglutide-15mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/semaglutide-15mg.webp",
+      "sha": "60ac8feeac97a2c209bde9a698efac91ab7f8a2a"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/semaglutide-20mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/semaglutide-20mg.webp",
+      "sha": "18976cd85596b23337fdf3eeab3731ad00a67209"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/semaglutide-30mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/semaglutide-30mg.webp",
+      "sha": "53c238579040568edc6d5fb9642ff1a1a0cdde9b"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/semaglutide-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/semaglutide-5mg.webp",
+      "sha": "5b463b23e7998695ef337cfc833189e4fb614e92"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/semax-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/semax-10mg.webp",
+      "sha": "abab1e383880b83f6907d10b1794fe7270c84c1c"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/sermorelin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/sermorelin-10mg.webp",
+      "sha": "054814fca055eb4657e715264d7c9968bb235893"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/snap-8-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/snap-8-10mg.webp",
+      "sha": "a80cc3dc2525301de5f8b23051334e506d6f524e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ss-31-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ss-31-10mg.webp",
+      "sha": "4fa8bb60acdfe179ba572fff29cbce9b14dc452d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/ss-31-50mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/ss-31-50mg.webp",
+      "sha": "8ef9bd37ae5a87c550e0bb9cead63b82465d32c6"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tb-500-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tb-500-10mg.webp",
+      "sha": "f4600b6d98ace4a98bf04aeb4b9ab707c28a3b83"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tb-500-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tb-500-5mg.webp",
+      "sha": "8e6f173613c8f7c44d40b1a4f51010b9d21e0f8d"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tesamorelin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tesamorelin-10mg.webp",
+      "sha": "5aae01931e5bfe75209a129ac5362de23e2703c4"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tesamorelin-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tesamorelin-5mg.webp",
+      "sha": "bd68c932fbedb7b06ac7e46e005adf24f9d8ec65"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/thymalin-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/thymalin-10mg.webp",
+      "sha": "4f64c1af245ab8addc1559651911c22779be05ad"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/thymosin-alpha-1-ta1-5mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/thymosin-alpha-1-ta1-5mg.webp",
+      "sha": "b553c5a948230fd373870d10124aa8af7a2838d9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tirzepatide-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tirzepatide-10mg.webp",
+      "sha": "8e7817fc01cdacdadb06bd17630daa00d27cf9a9"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tirzepatide-15mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tirzepatide-15mg.webp",
+      "sha": "7ab3b46c5f3971c3870c508a744054edf072390e"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tirzepatide-20mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tirzepatide-20mg.webp",
+      "sha": "5572039340e73bca737ad813b5b482248ab21066"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tirzepatide-30mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tirzepatide-30mg.webp",
+      "sha": "8352e4623675473b944b738df40e599a0aa56cbc"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/tirzepatide-60mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/tirzepatide-60mg.webp",
+      "sha": "43fdb058616de3ce139f111320acd79944206f84"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/public/product-images/vip-10mg.webp",
+      "canonical": "projects/vitality-chems-storefront/public/product-images/vip-10mg.webp",
+      "sha": "bc7e6967cd84c982f91d6a304627971a51aee161"
+    },
+    {
+      "source": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/src/lib/vial-photos.ts",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/storefront-static/src/lib/vial-photos.ts",
+      "sha": "01db471a6b1c8a490f774cff10aac286fbed72f9"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/complete-archive-notes.md",
+      "canonical": "docs/handoff/complete-archive-notes.md",
+      "sha": "09ace08cfe27aba3b2c615ada927875743a556a7"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/legacy-handoff-notes.md",
+      "canonical": "docs/handoff/legacy-handoff-notes.md",
+      "sha": "ec73241358bebb9c4cba303eba1032d64a36b630"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/TESSERA_OPERATING_GUIDELINES.md",
+      "canonical": "docs/handoff/TESSERA_OPERATING_GUIDELINES.md",
+      "sha": "67687a57c9d4f51d5f130919bc382c97819a6ccc"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/source-screenshot-supplement/00-START-HERE.md",
+      "canonical": "docs/handoff/source-screenshot-supplement/00-START-HERE.md",
+      "sha": "86a05cee827d69c9f59e786fc2fa0f877ad42286"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/source-screenshot-supplement/01-archive-inventory.csv",
+      "canonical": "docs/handoff/source-screenshot-supplement/01-archive-inventory.csv",
+      "sha": "ae72ed4225e98504964566d92c6f8d76ecb59c17"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/source-screenshot-supplement/02-visible-text-transcript.md",
+      "canonical": "docs/handoff/source-screenshot-supplement/02-visible-text-transcript.md",
+      "sha": "6f92dc33d763a13b8ba596c4e29cd60bcff43474"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/repository/source-screenshot-supplement/SHA256SUMS.txt",
+      "canonical": "docs/handoff/source-screenshot-supplement/SHA256SUMS.txt",
+      "sha": "d6a298aa4a84687888c36a2fa3dcf162bc9c6870"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-workspace/.github_repo",
+      "canonical": "projects/vitality-chems-storefront/.github_repo",
+      "sha": "8a22c855fd271090e739107089b5c13d6bdfda7e"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-workspace/scripts/grok-pwa-plugin.test.mjs",
+      "canonical": "projects/vitality-chems-storefront/scripts/grok-pwa-plugin.test.mjs",
+      "sha": "506d5bf115b2fc9ddaf948d3418aeed04d893aec"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-handoff/grok-packet/04_REFERENCES_AND_RIGHTS.md",
+      "canonical": "docs/grok-packet/04_REFERENCES_AND_RIGHTS.md",
+      "sha": "6212a8cc726f214d37e5e34c1c71227dd00b1fcc"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-handoff/grok-packet/07_LINK_INDEX.md",
+      "canonical": "docs/grok-packet/07_LINK_INDEX.md",
+      "sha": "5af3ba40f26916a663fce6b5af404dffdc9c8073"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/owner-history/direct-tessera-request.md",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/owner-history/direct-tessera-request.md",
+      "sha": "ecfa209dff0d6e8944cac546b9a28b96421fc5bd"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/user-provided-text-5f29bf5c4b9a.txt",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/user-provided-text/user-provided-text-5f29bf5c4b9a.txt",
+      "sha": "057c2440318736606838e72dc8d1a2fe34029bc6"
+    },
+    {
+      "source": "archives/handoffs/tessera-grok-handoff-complete/public/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/tests/simulation.test.mjs",
+      "canonical": "docs/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/tests/simulation.test.mjs",
+      "sha": "0675f1c654e5c82ddf537e6f753c86500b3e974a"
+    }
+  ]
+}

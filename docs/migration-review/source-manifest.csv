@@ -1,0 +1,13 @@
+source,ref,commit,tracked_files,available_remote_refs,disposition
+vitalitychems-dot/Grok-ready,origin/main,3cdd0ac02f7ecc97d83f4303d1ba91007d0236d9,1707,origin/main 3cdd0ac02f7ecc97d83f4303d1ba91007d0236d9; origin/maintenance-redact-user-pasted-filenames-20261002 81d7ef1ab849e5f2c1f372fd3db08d8fe1face05; origin/migration/source-omission-review-20261002-1790942612150 52fd4369f518810de9eab2d16d70dc60c219a295,snapshot-reviewed
+vitalitychems-dot/5t,HEAD,1490d62181121f8bf5fb3a522a8da3256ba90bae,1316,origin/main 1490d62181121f8bf5fb3a522a8da3256ba90bae,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/1,origin/main,3bad9785cd005438d70acea8fa48a3deca503044,913,origin/main 3bad9785cd005438d70acea8fa48a3deca503044; origin/subrepl-nftoz8d7 f69c17caf5c8f4f63189ef2a8787a1298c0ad317,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/T44,origin/main,bb214989df9134a55bb1bb19658fb48a8010ee53,1275,origin/main bb214989df9134a55bb1bb19658fb48a8010ee53,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/TESS,origin/main,5bc2333e8884af79ea31e8aefa05b88d46a19f26,1297,origin/main 5bc2333e8884af79ea31e8aefa05b88d46a19f26,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/TX,origin/main,901df69bf1fbe89052dcea578b40c16b2c9b16bb,3,origin/agent/tx-consolidation-review 4a8a7fc6218b046649199c7e7f1cdbf6cb0f18a5; origin/main 901df69bf1fbe89052dcea578b40c16b2c9b16bb,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/tessera-grok-handoff,origin/main,7f52186c30a07b45381e256ef58519652c5068dd,82,origin/main 7f52186c30a07b45381e256ef58519652c5068dd,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/tessera-grok-handoff-complete,origin/main,5f7285f0c4f92f9210d9d2cd51200ceee74e6abc,328,origin/main 5f7285f0c4f92f9210d9d2cd51200ceee74e6abc,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/tessera-complete-archives,origin/main,d0e014891e3d973c7420556c8769b58ece7e3da0,316,origin/main d0e014891e3d973c7420556c8769b58ece7e3da0,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/Everything,origin/main,3b367879055583c3381643c1162a35aea0f87e5a,2,origin/main 3b367879055583c3381643c1162a35aea0f87e5a,safe-distinct-content-archived-or-deduplicated
+vitalitychems-dot/1T,origin/main,,,,not inspected or copied; user-confirmed protected-vault boundary
+Google Drive:Vitalitychems-3.zip,Drive file snapshot,,,,407 app entries integrated; safe distinct notes archived; browser profile and Git internals excluded

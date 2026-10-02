@@ -1,0 +1,283 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Sampled from the Vitality knot + vial caps: electric blue, violet, magenta on true black */
+  --color-bg: #05040a;
+  --color-bg-elevated: #0c0a12;
+  --color-surface: #13101a;
+  --color-fg: #f4f0fa;
+  --color-muted: #9b94ab;
+  --color-faint: #6e677d;
+  --color-primary: #a33bff;
+  --color-primary-deep: #7a22d4;
+  --color-primary-soft: #d4a8ff;
+  --color-primary-fg: #ffffff;
+  --color-accent: #2a20ff;
+  --color-border: rgb(188 63 255 / 0.16);
+  --color-border-strong: rgb(188 63 255 / 0.28);
+  --color-overlay: rgb(188 63 255 / 0.07);
+  --color-profit: #3dcea8;
+  --color-warn: #e3b341;
+  --color-loss: #e05a6a;
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-lift: 0 12px 40px rgb(0 0 0 / 0.5);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: auto;
+    height: auto;
+  }
+
+  html:not([data-gate="ok"]):not([data-gate="exempt"]) {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    overflow: visible;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: var(--color-primary-fg);
+  }
+
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass-panel {
+    background: color-mix(in oklab, var(--color-bg) 88%, transparent);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .brand-glow {
+    background:
+      radial-gradient(ellipse 70% 50% at 50% 0%, rgb(163 59 255 / 0.18), transparent 60%),
+      radial-gradient(ellipse 40% 30% at 80% 20%, rgb(42 32 255 / 0.12), transparent 50%),
+      var(--color-bg);
+  }
+
+  .vial-stage {
+    background:
+      radial-gradient(ellipse 55% 48% at 50% 58%, rgb(163 59 255 / 0.18), transparent 70%),
+      var(--color-bg);
+  }
+
+  .catalog-photo {
+    aspect-ratio: 4 / 5;
+    width: 100%;
+    height: auto;
+  }
+
+  .catalog-card {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 560px;
+    contain: layout paint style;
+  }
+  .dose-option {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .input-field {
+    width: 100%;
+    background: var(--color-overlay);
+    border: 1px solid var(--color-border-strong);
+    color: var(--color-fg);
+    font-size: 0.875rem;
+    padding: 0.7rem 0.9rem;
+    border-radius: var(--radius-sm);
+    outline: none;
+    min-height: 44px;
+  }
+  .input-field::placeholder {
+    color: var(--color-faint);
+  }
+  .input-field:focus {
+    border-color: var(--color-primary);
+    background: color-mix(in oklab, var(--color-primary) 12%, transparent);
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--color-primary);
+    color: var(--color-primary-fg);
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    min-height: 44px;
+    padding: 0.75rem 1.1rem;
+    transition: background-color 150ms cubic-bezier(0.22, 1, 0.36, 1),
+      transform 150ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .btn-primary:hover {
+    background: var(--color-primary-deep);
+    color: var(--color-primary-fg);
+  }
+  .btn-primary:active {
+    transform: scale(0.98);
+  }
+  .btn-primary:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .ruo-gate {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem 1.5rem calc(1.5rem + env(safe-area-inset-bottom));
+    background: var(--color-bg);
+    color: var(--color-fg);
+    touch-action: manipulation;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ruo-gate-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: min(100%, 100dvh);
+    width: 100%;
+    max-width: 28rem;
+    margin: auto;
+  }
+  html[data-gate="ok"] .ruo-gate {
+    display: none !important;
+    pointer-events: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    z-index: -1 !important;
+  }
+  .ruo-enter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    min-width: 16rem;
+    min-height: 52px;
+    padding: 0.9rem 1.5rem;
+    border: 0;
+    background: var(--color-primary);
+    color: #fff;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 2;
+  }
+  .ruo-enter:active {
+    background: var(--color-primary-deep);
+    transform: scale(0.98);
+  }
+  .ruo-decline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 0.9rem 1.5rem;
+    border: 1px solid var(--color-border-strong);
+    background: transparent;
+    color: var(--color-muted);
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    flex: 1;
+  }
+  .ruo-decline:hover { color: var(--color-fg); }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

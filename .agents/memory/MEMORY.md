@@ -1,0 +1,3 @@
+- [Outbound knowledge sources](outbound-knowledge-sources.md) — Keep generic knowledge fetching limited to fixed, credential-free sources; new hosts require explicit approval.
+- [Tessera agent identity](agent-identity-boundary.md) — Tessera acts under its own identity and never impersonates the operator.
+- [GitHub repo tree snapshots](github-repo-tree-snapshots.md) — serial recursive-tree reads avoid secondary 429s from parallel bursts.

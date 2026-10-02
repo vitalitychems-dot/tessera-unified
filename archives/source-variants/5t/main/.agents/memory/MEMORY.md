@@ -1,0 +1,1 @@
+- [Outbound knowledge sources](outbound-knowledge-sources.md) — Keep generic knowledge fetching limited to fixed, credential-free sources; new hosts require explicit approval.

@@ -1,0 +1,1686 @@
+{
+  "schemaVersion": 1,
+  "canvas": {
+    "width": 800,
+    "height": 1000,
+    "format": "webp",
+    "quality": 90,
+    "metadata": "stripped",
+    "fit": "contain with black letterbox; no upscaling"
+  },
+  "totals": {
+    "uploadedFiles": 101,
+    "retained": 60,
+    "duplicateProductStrength": 18,
+    "rejected": 23,
+    "contradictory": 2,
+    "uploadedBytesBefore": 13482957,
+    "canonicalBytesAfter": 1422370,
+    "canonicalAssets": 66,
+    "derivedRenders": 8,
+    "rejectedAfterVisualAudit": 7
+  },
+  "records": [
+    {
+      "source": "attached_assets/IMG_1549_1789405572137.jpeg",
+      "label": "Thymalin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 123856,
+      "sourceSha256": "442542a93e21edc8a7e9a07abae5d88c92b91505e0bb002fb3c8c0f10bcb5c7d",
+      "decision": "retained",
+      "output": "/product-images/thymalin-10mg.webp",
+      "outputBytes": 25484,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1550_1789405572137.jpeg",
+      "label": "Thymosin Alpha-1 (TA1)",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 117307,
+      "sourceSha256": "cf0cee0474cf43d2b904dd6188cb32db4455c777504b7508e366bf7968848e8a",
+      "decision": "retained",
+      "output": "/product-images/thymosin-alpha-1-ta1-5mg.webp",
+      "outputBytes": 23980,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1552_1789405572137.jpeg",
+      "label": "Snap-8",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1306,
+        "height": 1914
+      },
+      "sourceBytes": 132717,
+      "sourceSha256": "fd1c92c4d73306243e4536c1ade8d4b71567062e29d9d8bfee864e24920ce28d",
+      "decision": "retained",
+      "output": "/product-images/snap-8-10mg.webp",
+      "outputBytes": 26816,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1553_1789405572137.jpeg",
+      "label": "ARA-290",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1310,
+        "height": 1995
+      },
+      "sourceBytes": 137334,
+      "sourceSha256": "9fd1d784a56d0a1912ad8b992bf1319b3e69afcff5ba63e2a93d4ffd8f5fc23e",
+      "decision": "retained",
+      "output": "/product-images/ara-290-10mg.webp",
+      "outputBytes": 25084,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1555_1789405572137.jpeg",
+      "label": "IGF-1 LR3",
+      "dose": "1mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2165
+      },
+      "sourceBytes": 138841,
+      "sourceSha256": "09dbdf4b582625b610f1ea711cc75025a7b64e4e0364ec9e67fce39ea3fbae26",
+      "decision": "retained",
+      "output": "/product-images/igf-1-lr3-1mg.webp",
+      "outputBytes": 22770,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1557_1789405572137.jpeg",
+      "label": "CJC-1295 with DAC",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125285,
+      "sourceSha256": "78038297e736a86c77bc4b04fe6e6639557a0f3cf064901a21f68fd8ac898c97",
+      "decision": "retained",
+      "output": "/product-images/cjc-1295-with-dac-5mg.webp",
+      "outputBytes": 26014,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1560_1789405572137.jpeg",
+      "label": "BPC/TB Blend",
+      "dose": "10mg/10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 122235,
+      "sourceSha256": "13004de2cd0debb5c448f0a3548528b679c127d0f602357debbdf6b8c022ee23",
+      "decision": "retained",
+      "output": "/product-images/bpc-tb-blend-10mg-10mg.webp",
+      "outputBytes": 25140,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1561_1789405572137.jpeg",
+      "label": "Glow",
+      "dose": "10/10/50mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 121691,
+      "sourceSha256": "f876a87c07f61354aa297319020230c9a040ec3b706110c32646266be23b49ba",
+      "decision": "retained",
+      "output": "/product-images/glow-10-10-50mg.webp",
+      "outputBytes": 25310,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1563_1789405572137.jpeg",
+      "label": "BPC-157",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 124137,
+      "sourceSha256": "5035dc3f946c6e3beaa47938b2246626dd603e210d1cb7dd959c82d018d29129",
+      "decision": "retained",
+      "output": "/product-images/bpc-157-10mg.webp",
+      "outputBytes": 25656,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1565_1789405572137.jpeg",
+      "label": "TB-500",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 123230,
+      "sourceSha256": "d0db76fef43eba5f3dfd52df54733dba9e4e8616b59a371ac9882d446e41791d",
+      "decision": "retained",
+      "output": "/product-images/tb-500-10mg.webp",
+      "outputBytes": 25228,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1567_1789405572137.jpeg",
+      "label": "Tirzepatide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125060,
+      "sourceSha256": "718c9d04fccf5114169c4dbd7ca4dccd5564e01925d17bf1b204a1f491142558",
+      "decision": "duplicate",
+      "output": "/product-images/tirzepatide-10mg.webp",
+      "outputBytes": 27436,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1649_1789405539668.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1569_1789405572137.jpeg",
+      "label": "Semaglutide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2169
+      },
+      "sourceBytes": 142293,
+      "sourceSha256": "4f5862c833b31c7746301cbdc1f750aedb854c5ed2f23d36ef84d1192d2cafb6",
+      "decision": "retained",
+      "output": "/product-images/semaglutide-10mg.webp",
+      "outputBytes": 23166,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1570_1789405572137.jpeg",
+      "label": "GHK-Cu",
+      "dose": "50mg",
+      "sourceDimensions": {
+        "width": 1309,
+        "height": 2205
+      },
+      "sourceBytes": 138352,
+      "sourceSha256": "1ee8b1c3de92e7da84135cd777c5d26be5d0876c89b497a280cde1ab5fa12c3c",
+      "decision": "retained",
+      "output": "/product-images/ghk-cu-50mg.webp",
+      "outputBytes": 21912,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1571_1789405572137.jpeg",
+      "label": "Ipamorelin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1300,
+        "height": 2195
+      },
+      "sourceBytes": 141459,
+      "sourceSha256": "443fab53e831ddbabebaa1e3ea46a1bb0ffdd46c56dea120d3b50947dc873b8c",
+      "decision": "retained",
+      "output": "/product-images/ipamorelin-10mg.webp",
+      "outputBytes": 22696,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1572_1789405572137.jpeg",
+      "label": "CJC-1295 no DAC",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1274,
+        "height": 2203
+      },
+      "sourceBytes": 139144,
+      "sourceSha256": "ff016f2b110c60ca3dae9786a244d2b5b427610685c31382125ec8c959443fe9",
+      "decision": "retained",
+      "output": "/product-images/cjc-1295-no-dac-10mg.webp",
+      "outputBytes": 22094,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1573_1789405572137.jpeg",
+      "label": "AOD-9604",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2188
+      },
+      "sourceBytes": 141989,
+      "sourceSha256": "bbb9460ef9d650b597806c01f4ff3c4e607e01bde03c87f938c9a6ea0ca1a735",
+      "decision": "retained",
+      "output": "/product-images/aod-9604-5mg.webp",
+      "outputBytes": 22512,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1576_1789405572137.jpeg",
+      "label": "KLOW",
+      "dose": "10/10/50mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 123161,
+      "sourceSha256": "b596f1aa57ac9be45540dbc7b006849c7b06c4f600eada6321eb486c5f577611",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "Catalog KLOW variant is 80mg; exact name+dose mismatch"
+    },
+    {
+      "source": "attached_assets/IMG_1578_1789405572137.jpeg",
+      "label": "HCG",
+      "dose": "5000IU",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 122610,
+      "sourceSha256": "6ff48809aae277a49766e3176694620e2b248f06fb2d11eaf1db417f8de3ad4e",
+      "decision": "retained",
+      "output": "/product-images/hcg-5000iu.webp",
+      "outputBytes": 25146,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1579_1789405572137.jpeg",
+      "label": "Survodutide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2192
+      },
+      "sourceBytes": 142183,
+      "sourceSha256": "bcfe7ddc7eaec623950726f0bd4083b6f6adb4f705086328bf00cd4d0ef17a98",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1581_1789405572137.jpeg",
+      "label": "Mazdutide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2181
+      },
+      "sourceBytes": 142599,
+      "sourceSha256": "3a187dc699d6a8b0943926c0641e15f73d189386e72834e589ca883883c2c992",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1581_1789405613028.jpeg",
+      "label": "Mazdutide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2181
+      },
+      "sourceBytes": 142599,
+      "sourceSha256": "3a187dc699d6a8b0943926c0641e15f73d189386e72834e589ca883883c2c992",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "Exact duplicate of IMG_1581_1789405572137.jpeg; parent has no exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1584_1789405613028.jpeg",
+      "label": "VIP",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 118264,
+      "sourceSha256": "0f84658d1f1781062b4c1a58deb4885b8b220a0ad7fc32f54796366bac764a0f",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog VIP vial variant (catalog is 10mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1586_1789405613028.jpeg",
+      "label": "Epithalon",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 123670,
+      "sourceSha256": "8a41f88cf0058a649610ad3a14c7b697bb82fc2a9e5bd707725e389e440ad5c6",
+      "decision": "retained",
+      "output": "/product-images/epithalon-10mg.webp",
+      "outputBytes": 25468,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1587_1789405613028.jpeg",
+      "label": "MOTS-c",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2144
+      },
+      "sourceBytes": 136006,
+      "sourceSha256": "25639e651ac4d66b11f4b1e5bb2777289aef9761b513fd26fb33755cec008cbe",
+      "decision": "retained",
+      "output": "/product-images/mots-c-10mg.webp",
+      "outputBytes": 22820,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1589_1789405613028.jpeg",
+      "label": "PT-141",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1310,
+        "height": 2211
+      },
+      "sourceBytes": 136973,
+      "sourceSha256": "f07202a86b77f67a5dadfa7769dc4a446074b64c0252b29caee126e14950380d",
+      "decision": "retained",
+      "output": "/product-images/pt-141-10mg.webp",
+      "outputBytes": 21126,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1592_1789405613028.jpeg",
+      "label": "DSIP",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2125
+      },
+      "sourceBytes": 136282,
+      "sourceSha256": "bc14c8f8f16511ecb581e257d43c0ef6fbc12f5397da67ae047826b55fc78302",
+      "decision": "retained",
+      "output": "/product-images/dsip-5mg.webp",
+      "outputBytes": 22128,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1593_1789405613028.jpeg",
+      "label": "Sermorelin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125763,
+      "sourceSha256": "68cf34c9c9250eb0c73ab15af1453ba62f8c0e92d8a0ff86b5144748ae9f71f1",
+      "decision": "retained",
+      "output": "/product-images/sermorelin-10mg.webp",
+      "outputBytes": 26056,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1595_1789405613028.jpeg",
+      "label": "Tesamorelin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2200
+      },
+      "sourceBytes": 144309,
+      "sourceSha256": "610c3fdd4dd5e7ed0e47da8a395e178c957c792f8d6b53469a97a96dbc62bf5e",
+      "decision": "retained",
+      "output": "/product-images/tesamorelin-10mg.webp",
+      "outputBytes": 22832,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1595_1789405613028.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1598_1789405613028.jpeg",
+      "label": "Cagrilintide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 124442,
+      "sourceSha256": "9f4947ff5d9688571d901c8a0b39eb47507f08d34275add3a25b1a3352b9c247",
+      "decision": "retained",
+      "output": "/product-images/cagrilintide-10mg.webp",
+      "outputBytes": 25846,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1600_1789405613028.jpeg",
+      "label": "5-Amino-1MQ",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125237,
+      "sourceSha256": "274fcf5e7b1bbf47ce6155174cb2d45f6276a1676823fbbc1ed069675850e860",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog 5-Amino-1MQ vial variant (catalog is 5mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1601_1789405613028.jpeg",
+      "label": "Selank",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1306,
+        "height": 2207
+      },
+      "sourceBytes": 140008,
+      "sourceSha256": "4714e71a93a3b87c4d9ac287b7f4dd8f0d544d2be333316756e4e3a338fa6a4b",
+      "decision": "retained",
+      "output": "/product-images/selank-10mg.webp",
+      "outputBytes": 21922,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1603_1789405613028.jpeg",
+      "label": "Semax",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1312,
+        "height": 2195
+      },
+      "sourceBytes": 141997,
+      "sourceSha256": "44bbb82a715be7e3234070768efe915962443f469f9218f2236e9cc939a4c511",
+      "decision": "retained",
+      "output": "/product-images/semax-10mg.webp",
+      "outputBytes": 22174,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1605_1789405613028.jpeg",
+      "label": "MT-2",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2235
+      },
+      "sourceBytes": 137176,
+      "sourceSha256": "c5cd5a8c65aa6775dd7fe39f3a37a3434ab92c0bd347bd2be2a244ed23117da1",
+      "decision": "retained",
+      "output": "/product-images/mt-2-10mg.webp",
+      "outputBytes": 20606,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1608_1789405613029.jpeg",
+      "label": "GHRP-2",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 122279,
+      "sourceSha256": "ad87d63c9ae052507d72275829406dd2e9c81e2ee444fddf17b1749756b00170",
+      "decision": "retained",
+      "output": "/product-images/ghrp-2-10mg.webp",
+      "outputBytes": 25170,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1704_1789405426800.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1610_1789405613029.jpeg",
+      "label": "GHRP-6",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 121891,
+      "sourceSha256": "ab15a15937809b32f0f9986c6e51d22b5e9d8547b87f03b5d044552f1448cca1",
+      "decision": "retained",
+      "output": "/product-images/ghrp-6-10mg.webp",
+      "outputBytes": 25756,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1612_1789405613029.jpeg",
+      "label": "Frag 176-191",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 123947,
+      "sourceSha256": "35238df7cd441d206beeb449ac4bbf33734c7e3d31630f96364f29e07faf7fc7",
+      "decision": "retained",
+      "output": "/product-images/frag-176-191-5mg.webp",
+      "outputBytes": 25542,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1614_1789405613029.jpeg",
+      "label": "NAD+",
+      "dose": "500mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 120683,
+      "sourceSha256": "d6022dca8a08038f2713e9e843a132c66358a8c96879af6ce9b2e6ea8e0fe579",
+      "decision": "retained",
+      "output": "/product-images/nad-500mg.webp",
+      "outputBytes": 24602,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1615_1789405613029.jpeg",
+      "label": "Glutathione",
+      "dose": "1500mg",
+      "sourceDimensions": {
+        "width": 1312,
+        "height": 2177
+      },
+      "sourceBytes": 141955,
+      "sourceSha256": "c1c374ddd9ce24a3ebb48ca4fa1d24dd2dcb906caf32d8c9d7af44fdb6e7f145",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "Label matches compound but no exact catalog image source retained because the available 1500mg candidate has a contradictory bottom caption (see IMG_1693)"
+    },
+    {
+      "source": "attached_assets/IMG_1617_1789405613029.jpeg",
+      "label": "Hexarelin",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2217
+      },
+      "sourceBytes": 145196,
+      "sourceSha256": "9e8252b43b960b67aca15488e307e11254818dd7d9a5d947292d47133425ea5c",
+      "decision": "retained",
+      "output": "/product-images/hexarelin-5mg.webp",
+      "outputBytes": 22340,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1619_1789405613029.jpeg",
+      "label": "Kisspeptin",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1293,
+        "height": 2183
+      },
+      "sourceBytes": 142490,
+      "sourceSha256": "30f5292caad27bde9e6178c30b35f28425dca7da8ff979924af57b55dc3e2332",
+      "decision": "retained",
+      "output": "/product-images/kisspeptin-5mg.webp",
+      "outputBytes": 22536,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1646_1789405539668.jpeg",
+      "label": "Semaglutide",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130263,
+      "sourceSha256": "cf953f434e4599a225307c616b8215e7095b6f5cf3b7d864409dcd7e61eb8d55",
+      "decision": "retained",
+      "output": "/product-images/semaglutide-5mg.webp",
+      "outputBytes": 27546,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1647_1789405539668.jpeg",
+      "label": "Tirzepatide",
+      "dose": "60mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130222,
+      "sourceSha256": "c0df93812359ce85c83942401eae63f26da8be3b34bd73a72f0f1237dab56c82",
+      "decision": "retained",
+      "output": "/product-images/tirzepatide-60mg.webp",
+      "outputBytes": 27238,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1648_1789405539668.jpeg",
+      "label": "Tirzepatide",
+      "dose": "30mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129766,
+      "sourceSha256": "a6c00827be8a4b18d2dedd9a3527ecd6ededf3f56d1ddcc5dfd76c940fd63fbc",
+      "decision": "retained",
+      "output": "/product-images/tirzepatide-30mg.webp",
+      "outputBytes": 27444,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1649_1789405539668.jpeg",
+      "label": "Tirzepatide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130221,
+      "sourceSha256": "ddd8b255522abd6cc479451348485ac8dda136bddd2ce3aba6896b0f76caf142",
+      "decision": "retained",
+      "output": "/product-images/tirzepatide-10mg.webp",
+      "outputBytes": 27436,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1650_1789405539668.jpeg",
+      "label": "Retatrutide",
+      "dose": "20mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129494,
+      "sourceSha256": "876fd23b49b738967f4316003e7cae16813bcfb6aa38b067fe95f366bc9cfe26",
+      "decision": "retained",
+      "output": "/product-images/retatrutide-20mg.webp",
+      "outputBytes": 27234,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1651_1789405539668.jpeg",
+      "label": "Retatrutide",
+      "dose": "30mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128608,
+      "sourceSha256": "6dba75bf7d2fc2a7d94e7946fff5c7c8d39803e953959768ce13db8260aead5f",
+      "decision": "retained",
+      "output": "/product-images/retatrutide-30mg.webp",
+      "outputBytes": 27216,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1652_1789405539668.jpeg",
+      "label": "Retatrutide",
+      "dose": "15mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 132967,
+      "sourceSha256": "cb38a2425410c0906703cc8f51e80d5db032866b11c8057c8acf1a181803c319",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1653_1789405539668.jpeg",
+      "label": "Retatrutide",
+      "dose": "60mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125738,
+      "sourceSha256": "5b8b09f2dacd4a3bcc42fbf36da24bdb497713422a37150625c5fb84aec61202",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1654_1789405539668.jpeg",
+      "label": "Tirzepatide",
+      "dose": "15mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129907,
+      "sourceSha256": "89105885079e477850d4fa18b077fe65cb440e6526d1da67b4ee6acb9fa60e7f",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": 27358,
+      "rejectionOrDuplicateReason": "Visual audit 2026-09-14: printed label reads TIRZEPATIDE 5MG; canonical file replaced by a derived render (see audit.derived)"
+    },
+    {
+      "source": "attached_assets/IMG_1655_1789405539668.jpeg",
+      "label": "Tirzepatide",
+      "dose": "20mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130063,
+      "sourceSha256": "c3fb7c0bb541ad9944aa13dfd84b799387248a2f546092b64c905e832a37175e",
+      "decision": "duplicate",
+      "output": "/product-images/tirzepatide-20mg.webp",
+      "outputBytes": 27546,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1656_1789405539668.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1656_1789405539668.jpeg",
+      "label": "Tirzepatide",
+      "dose": "20mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130981,
+      "sourceSha256": "05c7bcc55cfd84dae4bdad33d8bc9cd30d33e9ea142a464288464a8b0d538cae",
+      "decision": "retained",
+      "output": "/product-images/tirzepatide-20mg.webp",
+      "outputBytes": 27546,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1657_1789405539668.jpeg",
+      "label": "Semaglutide",
+      "dose": "20mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130687,
+      "sourceSha256": "1ed1966e75296f577a2dd52fa94b218944dc811b6517567b60437abae3b712b6",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": 27672,
+      "rejectionOrDuplicateReason": "Visual audit 2026-09-14: printed label reads SEMAGLUTIDE 30MG; canonical file replaced by a derived render (see audit.derived)"
+    },
+    {
+      "source": "attached_assets/IMG_1658_1789405539668.jpeg",
+      "label": "Semaglutide",
+      "dose": "20mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 131553,
+      "sourceSha256": "caaff466b7a0285dd99c0f5d52fc85578250131e5a2d45d1dee59e8e06c79aed",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": 27672,
+      "rejectionOrDuplicateReason": "Visual audit 2026-09-14: printed label reads SEMAGLUTIDE 30MG; canonical file replaced by a derived render (see audit.derived)"
+    },
+    {
+      "source": "attached_assets/IMG_1659_1789405539668.jpeg",
+      "label": "Cagrilintide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130399,
+      "sourceSha256": "1cdafeb4fdbe7f98efd59ac128a5f8995a6bc4a86119c3f75954c475daa6c5d1",
+      "decision": "duplicate",
+      "output": "/product-images/cagrilintide-10mg.webp",
+      "outputBytes": 25846,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1598_1789405613028.jpeg (larger source bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1660_1789405539668.jpeg",
+      "label": "BPC-157",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 126695,
+      "sourceSha256": "8675a5b744ff4876e8d4053836033f02b5704bf9f9eb54182003012f89939508",
+      "decision": "retained",
+      "output": "/product-images/bpc-157-5mg.webp",
+      "outputBytes": 26346,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1661_1789405539668.jpeg",
+      "label": "BPC-157",
+      "dose": "20mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127075,
+      "sourceSha256": "aae21a0447c95eb575b18f4570cfc372aa11b4ed5479165f9c22c325589ed647",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1662_1789405539668.jpeg",
+      "label": "TB-500",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 126636,
+      "sourceSha256": "b731adb05fba1e859fdbe5ac9518599052f45940a19e33471561a4b7311b9429",
+      "decision": "retained",
+      "output": "/product-images/tb-500-5mg.webp",
+      "outputBytes": 26550,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1663_1789405539668.jpeg",
+      "label": "TB-500",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127671,
+      "sourceSha256": "926bcdc6c9b00477ac950cc0e2a9934aed74688b756c0355fd95fd05a0e946ee",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "Contradictory visible evidence: vial label says TB-500 10MG but bottom caption says RETATRUTIDE"
+    },
+    {
+      "source": "attached_assets/IMG_1664_1789405539668.jpeg",
+      "label": "GHK-Cu",
+      "dose": "50mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128333,
+      "sourceSha256": "c6bb6691802b13d3af59a6bafb4eff24eee6b2490adf7e68abb3d4a23b4892ab",
+      "decision": "duplicate",
+      "output": "/product-images/ghk-cu-50mg.webp",
+      "outputBytes": 21912,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1570_1789405572137.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1665_1789405539668.jpeg",
+      "label": "GHK-Cu",
+      "dose": "100mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128678,
+      "sourceSha256": "54eef044d51c48e6c489df0ae86d133551336266442c60e132fa620853c9786f",
+      "decision": "retained",
+      "output": "/product-images/ghk-cu-100mg.webp",
+      "outputBytes": 26756,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1667_1789405475064.jpeg",
+      "label": "Cagrilintide",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130757,
+      "sourceSha256": "f98fc4a4d9d91654e898324b30b0d3a054c4717c8399ac1c5ea8b51924b54d71",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant (catalog is 10mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1668_1789405475064.jpeg",
+      "label": "NAD+",
+      "dose": "100mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127947,
+      "sourceSha256": "61df738f4306020b57f9b7b22fb41662a13e438a5fee16346c3c15de630d5ed6",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant (catalog is 500mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1669_1789405475064.jpeg",
+      "label": "NAD+",
+      "dose": "500mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127771,
+      "sourceSha256": "803dc3068744444c410fcdb14ebc5364d64cc77d9c9d39dc25804609c6adce90",
+      "decision": "duplicate",
+      "output": "/product-images/nad-500mg.webp",
+      "outputBytes": 24602,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1614_1789405613029.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1670_1789405475064.jpeg",
+      "label": "Epithalon",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129552,
+      "sourceSha256": "a0e38485a4b744e9ca73750c817833f4ca4462a40139dede2086d35db7812c98",
+      "decision": "duplicate",
+      "output": "/product-images/epithalon-10mg.webp",
+      "outputBytes": 25468,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1586_1789405613028.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1671_1789405475064.jpeg",
+      "label": "Epithalon",
+      "dose": "50mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128497,
+      "sourceSha256": "f741ef6c17b45e5e0f85d0dca7e5b969c9612d6b9b18e5dce933faaca413912f",
+      "decision": "retained",
+      "output": "/product-images/epithalon-50mg.webp",
+      "outputBytes": 26940,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1672_1789405475064.jpeg",
+      "label": "Tesamorelin",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 131511,
+      "sourceSha256": "b7b6d3290110937f10f5c2e7183cd4ef806c72c71f241a6ff6a2bebcd1da3bb7",
+      "decision": "retained",
+      "output": "/product-images/tesamorelin-5mg.webp",
+      "outputBytes": 27754,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1673_1789405475064.jpeg",
+      "label": "Tesamorelin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 131258,
+      "sourceSha256": "67c4b8ad4d4c49c76a6e8cfba0540a21a206c11cfde5f8f143638cbfa9c3767f",
+      "decision": "duplicate",
+      "output": "/product-images/tesamorelin-10mg.webp",
+      "outputBytes": 22832,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1595_1789405613028.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1674_1789405475064.jpeg",
+      "label": "Ipamorelin",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129826,
+      "sourceSha256": "cc1820802cf997d34a7109987a46b8a52dc90ec96c108d560adaff0dd1a51205",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": 27184,
+      "rejectionOrDuplicateReason": "Visual audit 2026-09-14: rotated label column reads RETATRUTIDE 10MG (strip reads IPAMORELIN - 5MG); canonical file replaced by a derived render (see audit.derived)"
+    },
+    {
+      "source": "attached_assets/IMG_1675_1789405475064.jpeg",
+      "label": "Ipamorelin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130996,
+      "sourceSha256": "ad00ad7c2c6fdd0c4083b692ffe2199a45f4c8031f2a92bc01e22bb8981aba19",
+      "decision": "duplicate",
+      "output": "/product-images/ipamorelin-10mg.webp",
+      "outputBytes": 22696,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1571_1789405572137.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1676_1789405475064.jpeg",
+      "label": "Sermorelin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129204,
+      "sourceSha256": "1d740031a0afbbc3b49a13b74a69c3dffdb5d4c0d6cea02717941104b350295d",
+      "decision": "duplicate",
+      "output": "/product-images/sermorelin-10mg.webp",
+      "outputBytes": 26056,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1593_1789405613028.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1677_1789405475063.jpeg",
+      "label": "MOTS-c",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 126945,
+      "sourceSha256": "f702b8ce4d7cae9786f4dfc54694cce6a93e1863d64fe0ae08e0a7b116f226c7",
+      "decision": "duplicate",
+      "output": "/product-images/mots-c-10mg.webp",
+      "outputBytes": 22820,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1587_1789405613028.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1678_1789405475063.jpeg",
+      "label": "MOTS-c",
+      "dose": "40mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 126571,
+      "sourceSha256": "2ecbf9a97886c84269edb0197d2bf5f184573d0f54d4571dd0c37a0341e5013e",
+      "decision": "retained",
+      "output": "/product-images/mots-c-40mg.webp",
+      "outputBytes": 26502,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1679_1789405475063.jpeg",
+      "label": "PT-141",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125413,
+      "sourceSha256": "8043305d43b1670be554a9822f42c9f06ab56bc7dc757a0f32aa381244b81257",
+      "decision": "duplicate",
+      "output": "/product-images/pt-141-10mg.webp",
+      "outputBytes": 21126,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1589_1789405613028.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1682_1789405475063.jpeg",
+      "label": "SS-31",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125878,
+      "sourceSha256": "598b9aa5846522012f9841e29150d79ff46380e958918944b266eaf518658a54",
+      "decision": "retained",
+      "output": "/product-images/ss-31-10mg.webp",
+      "outputBytes": 26192,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1683_1789405475063.jpeg",
+      "label": "SS-31",
+      "dose": "50mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 126589,
+      "sourceSha256": "1a4e713084c359e7a2c2bbe5627c1ee2bd5af76101bd0045de58f489c1de5769",
+      "decision": "retained",
+      "output": "/product-images/ss-31-50mg.webp",
+      "outputBytes": 26396,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1684_1789405475063.jpeg",
+      "label": "Survodutide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130195,
+      "sourceSha256": "804484b2b2f89096bed03085663e001bfceb8f18bbad7f977f9d7df0c76df0d9",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1685_1789405475063.jpeg",
+      "label": "Mazdutide",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 130418,
+      "sourceSha256": "70371867d4f5f4c22fec6daa0df0b7e340456910d81615033759af163201ebb2",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1686_1789405475063.jpeg",
+      "label": "DSIP",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125334,
+      "sourceSha256": "b7515c416ae91228c3ea0656ff92bbe698e92c20e5122e79e5eba27981a2eefd",
+      "decision": "duplicate",
+      "output": "/product-images/dsip-5mg.webp",
+      "outputBytes": 22128,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1592_1789405613028.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1687_1789405475063.jpeg",
+      "label": "DSIP",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 124877,
+      "sourceSha256": "91799fa1e13a41d76836b71611045faf7d82ba6d8d0314d2d1c476c4533e2503",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1688_1789405426800.jpeg",
+      "label": "KPV",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 124618,
+      "sourceSha256": "3726a0fe45965b493b9b76425db8144337c035565fae15e927f2d98da2dcd716",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant (catalog is 10mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1688_1789405475063.jpeg",
+      "label": "KPV",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 124618,
+      "sourceSha256": "3726a0fe45965b493b9b76425db8144337c035565fae15e927f2d98da2dcd716",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "Exact duplicate of IMG_1688_1789405426800.jpeg; parent has no exact catalog vial variant"
+    },
+    {
+      "source": "attached_assets/IMG_1689_1789405426800.jpeg",
+      "label": "KPV",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125366,
+      "sourceSha256": "7d8827c7c1e55f34423cc26a1cbc92036639e81cf8bf331fe5c9740018abe0f6",
+      "decision": "retained",
+      "output": "/product-images/kpv-10mg.webp",
+      "outputBytes": 26076,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1690_1789405426800.jpeg",
+      "label": "AOD-9604",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128337,
+      "sourceSha256": "d95283898054d9d1e756737270765b100e9400dc95e39161a92e3f422bc07c97",
+      "decision": "duplicate",
+      "output": "/product-images/aod-9604-5mg.webp",
+      "outputBytes": 22512,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1573_1789405572137.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1691_1789405426800.jpeg",
+      "label": "AOD-9604",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128992,
+      "sourceSha256": "6ea559a1a92b7c9e163d7ea2aae4831ea8ba441a3907cd98b22a5129369b929d",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant (catalog is 5mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1692_1789405426800.jpeg",
+      "label": "Glutathione",
+      "dose": "500mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128280,
+      "sourceSha256": "c8539c73f5182475c31dc4fc838ef60d580b1d75ddf81f6fdf88349c454b6bbf",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant (catalog is 1500mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1693_1789405426800.jpeg",
+      "label": "Glutathione",
+      "dose": "1500mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 131780,
+      "sourceSha256": "ce7a40f170e31c2e3a7f8f7619c383a7f93d825299eb6169166cc0d57d5a836c",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "Contradictory visible evidence: vial label says GLUTATHIONE 1500MG but bottom caption carries RETATRUTIDE CAS 2381089-83-2"
+    },
+    {
+      "source": "attached_assets/IMG_1694_1789405426800.jpeg",
+      "label": "Selank",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125283,
+      "sourceSha256": "37bf7119663075fd7d3800482391179ed6b15f82a6e98bb43b985ad89b0e8fca",
+      "decision": "retained",
+      "output": "/product-images/selank-5mg.webp",
+      "outputBytes": 26190,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1695_1789405426800.jpeg",
+      "label": "Oxytocin",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127532,
+      "sourceSha256": "f19632a7f8996bf1b65281c41b50b1e271f811ab81b97b666d34a53c00b74d66",
+      "decision": "retained",
+      "output": "/product-images/oxytocin-5mg.webp",
+      "outputBytes": 26582,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1696_1789405426800.jpeg",
+      "label": "Pinealon",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128963,
+      "sourceSha256": "ae5621e791b1e2a80a00eed1ed440e20cd62cf555468931938e7c8320acdab0d",
+      "decision": "retained",
+      "output": "/product-images/pinealon-10mg.webp",
+      "outputBytes": 27098,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1698_1789405426800.jpeg",
+      "label": "LL-37",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125617,
+      "sourceSha256": "db80d9c99586226f9d297e87d921b8420882f50522708d15c6226fb710da1fef",
+      "decision": "retained",
+      "output": "/product-images/ll-37-5mg.webp",
+      "outputBytes": 25808,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1699_1789405426800.jpeg",
+      "label": "Kisspeptin",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129772,
+      "sourceSha256": "fa1b0274b53b523b14c8a3a1afe1f150c74fabff2371e5e96a009dca23ab043d",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No exact catalog vial variant (catalog is 5mg)"
+    },
+    {
+      "source": "attached_assets/IMG_1700_1789405426800.jpeg",
+      "label": "Frag 176-191",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 129714,
+      "sourceSha256": "37849fbb0fd1536393c709bf71275d88af68a6c79bc9e287b21397a54d14b130",
+      "decision": "duplicate",
+      "output": "/product-images/frag-176-191-5mg.webp",
+      "outputBytes": 25542,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1612_1789405613029.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1701_1789405426800.jpeg",
+      "label": "Hexarelin",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 128559,
+      "sourceSha256": "696232284e3329f53f72395a35537d4fb91ae8d8f523247d6c93619c6b87b543",
+      "decision": "duplicate",
+      "output": "/product-images/hexarelin-5mg.webp",
+      "outputBytes": 22340,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1617_1789405613029.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1702_1789405426800.jpeg",
+      "label": "IGF-1 LR3",
+      "dose": "1mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127837,
+      "sourceSha256": "5cba7127bec14e6d2621713f1896ef69d311118d8fae1d117df403916f1e1a3e",
+      "decision": "duplicate",
+      "output": "/product-images/igf-1-lr3-1mg.webp",
+      "outputBytes": 22770,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1555_1789405572137.jpeg (larger source)"
+    },
+    {
+      "source": "attached_assets/IMG_1703_1789405426800.jpeg",
+      "label": "GHRP-2",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127406,
+      "sourceSha256": "d71833d7387d8fd6c0e283feeedd61c977e3512b6aca80dc48a17425c4417056",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": 26682,
+      "rejectionOrDuplicateReason": "Visual audit 2026-09-14: rotated label column reads RETATRUTIDE 10MG (strip reads GHRP-2 - 5MG); canonical file replaced by a derived render (see audit.derived)"
+    },
+    {
+      "source": "attached_assets/IMG_1704_1789405426800.jpeg",
+      "label": "GHRP-2",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 127496,
+      "sourceSha256": "4a36cfa95f151564253c97b049610d2d054a48272f1d8e999ee5dad2187af2b9",
+      "decision": "duplicate",
+      "output": "/product-images/ghrp-2-10mg.webp",
+      "outputBytes": 25170,
+      "rejectionOrDuplicateReason": "Duplicate product+strength; retained IMG_1608_1789405613029.jpeg (larger JPEG bytes)"
+    },
+    {
+      "source": "attached_assets/IMG_1705_1789405426800.jpeg",
+      "label": "GHRP-6",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125169,
+      "sourceSha256": "712cbeb0756514bdb6fa3168423ad0d12b3059d97753f7efec31e25f1a16db15",
+      "decision": "retained",
+      "output": "/product-images/ghrp-6-5mg.webp",
+      "outputBytes": 26228,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1707_1789405426800.jpeg",
+      "label": "5-Amino-1MQ",
+      "dose": "5mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 133296,
+      "sourceSha256": "52bf630c89968175342a5bcf2c9bec789aa1d519200a6d1adae9076bd0969a0e",
+      "decision": "retained",
+      "output": "/product-images/5-amino-1mq-5mg.webp",
+      "outputBytes": 28458,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1708_1789405426800.jpeg",
+      "label": "KLOW",
+      "dose": "80mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 125218,
+      "sourceSha256": "e9b431e030b743ffbade58fce227de9c1bf3ff80fcf66f255c69cca6746ca914",
+      "decision": "retained",
+      "output": "/product-images/klow-80mg.webp",
+      "outputBytes": 26258,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1710_1789405426800.jpeg",
+      "label": "VIP",
+      "dose": "10mg",
+      "sourceDimensions": {
+        "width": 1120,
+        "height": 1760
+      },
+      "sourceBytes": 124684,
+      "sourceSha256": "d4637ca6bf3ec918e9791dfee3038216835befe87bbb204c77bcd48321df1d6a",
+      "decision": "retained",
+      "output": "/product-images/vip-10mg.webp",
+      "outputBytes": 25746,
+      "rejectionOrDuplicateReason": null
+    },
+    {
+      "source": "attached_assets/IMG_1795_1789404192039.png",
+      "label": "Unknown (screenshot)",
+      "dose": "Unknown",
+      "sourceDimensions": {
+        "width": 1320,
+        "height": 2868
+      },
+      "sourceBytes": 502274,
+      "sourceSha256": "bf520ce8bbe17f499b6fb6a0a2fc4ac24fd7d7ce5489fc65a5c8731f7aafa906",
+      "decision": "rejected",
+      "output": null,
+      "outputBytes": null,
+      "rejectionOrDuplicateReason": "No vial image; screenshot/error text only, identification uncertain"
+    }
+  ],
+  "legacyRetained": [
+    {
+      "source": "public/vials/cjc-1295-no-dac-5mg.jpg",
+      "output": "/product-images/cjc-1295-no-dac-5mg.webp",
+      "sourceBytes": 80671,
+      "sourceSha256": "78ce669afcaa6ab450752725f45f485469fa2acb4ccb30f674c9b8c8c29050f1",
+      "outputBytes": 28300,
+      "reason": "Visual audit 2026-09-14: printed label reads AOD-9604 5MG; retired and replaced by a derived render (see audit.derived)",
+      "retired": true
+    },
+    {
+      "source": "public/vials/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.jpg",
+      "output": "/product-images/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+      "sourceBytes": 87534,
+      "sourceSha256": "f1a129122817835ea1155057ea879d0334bf8f830f111f7f537eaa1785d9d88e",
+      "outputBytes": 30532,
+      "reason": "Visual audit 2026-09-14: printed label reads PINEALON 10MG; retired and replaced by a derived render (see audit.derived)",
+      "retired": true
+    },
+    {
+      "source": "public/vials/semaglutide-15mg.jpg",
+      "output": "/product-images/semaglutide-15mg.webp",
+      "sourceBytes": 89913,
+      "sourceSha256": "411e23a10101038e1796024f1430f1b4df9e8ec336b83ce6dfcdb361543176b4",
+      "outputBytes": 31814,
+      "reason": "Visual audit 2026-09-14: printed label reads CAGRILINTIDE 10MG; retired and replaced by a derived render (see audit.derived)",
+      "retired": true
+    },
+    {
+      "source": "public/vials/semaglutide-30mg.jpg",
+      "output": "/product-images/semaglutide-30mg.webp",
+      "sourceBytes": 89936,
+      "sourceSha256": "5481937f32934c9007379b493897b03e058b100d0fbe3ba54ab04b3d3cf76b8f",
+      "outputBytes": 32050,
+      "reason": "Previously audited exact catalog variant; no uploaded exact replacement, normalized into canonical library"
+    }
+  ],
+  "audit": {
+    "date": "2026-09-14",
+    "method": "Every canonical file was opened and both printed strength locations (rotated label column and purple strip) were read by eye at 2.5x zoom; filenames and prior manifest labels were not trusted.",
+    "captionsStripped": "The caption block under every vial (compound name / CAS / 'Research use only') was erased with scripts/strip-captions.mjs because several captions carried a CAS number belonging to another compound. The storefront prints name, strength and CAS from the catalog.",
+    "photoVersion": "2",
+    "rejectedCanonicalFiles": [
+      {
+        "file": "/product-images/cjc-1295-no-dac-5mg.webp",
+        "reason": "printed label reads AOD-9604 5MG"
+      },
+      {
+        "file": "/product-images/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+        "reason": "printed label reads PINEALON 10MG"
+      },
+      {
+        "file": "/product-images/ghrp-2-5mg.webp",
+        "reason": "rotated label column reads RETATRUTIDE 10MG (strip reads GHRP-2 - 5MG)"
+      },
+      {
+        "file": "/product-images/ipamorelin-5mg.webp",
+        "reason": "rotated label column reads RETATRUTIDE 10MG (strip reads IPAMORELIN - 5MG)"
+      },
+      {
+        "file": "/product-images/semaglutide-15mg.webp",
+        "reason": "printed label reads CAGRILINTIDE 10MG"
+      },
+      {
+        "file": "/product-images/semaglutide-20mg.webp",
+        "reason": "printed label reads SEMAGLUTIDE 30MG"
+      },
+      {
+        "file": "/product-images/tirzepatide-15mg.webp",
+        "reason": "printed label reads TIRZEPATIDE 5MG"
+      }
+    ],
+    "derived": [
+      {
+        "target": "/product-images/semaglutide-15mg.webp",
+        "from": "/product-images/semaglutide-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/semaglutide-15mg.webp",
+        "outputBytes": 19844,
+        "sha256": "4b8ad010508b30fe12ece383c0ca84293466272e24b7860f79903dca0edfc308"
+      },
+      {
+        "target": "/product-images/semaglutide-20mg.webp",
+        "from": "/product-images/semaglutide-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/semaglutide-20mg.webp",
+        "outputBytes": 19872,
+        "sha256": "89bd4cca8b1b0053cc87c5f0236e248a9b9367d0dfea889c819f0bd020582fe4"
+      },
+      {
+        "target": "/product-images/tirzepatide-15mg.webp",
+        "from": "/product-images/tirzepatide-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/tirzepatide-15mg.webp",
+        "outputBytes": 22458,
+        "sha256": "4c4db5208146a46f1d61e4e5bde50a37b5b6259bc4281e9dc8490322ff3214b8"
+      },
+      {
+        "target": "/product-images/ipamorelin-5mg.webp",
+        "from": "/product-images/ipamorelin-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/ipamorelin-5mg.webp",
+        "outputBytes": 19554,
+        "sha256": "6f0aee9280ff60cb59311c9a659fda5af908b6b65e6519e65c7d16bb5b5a89be"
+      },
+      {
+        "target": "/product-images/ghrp-2-5mg.webp",
+        "from": "/product-images/ghrp-2-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/ghrp-2-5mg.webp",
+        "outputBytes": 21688,
+        "sha256": "98baef56fc77ffa65184eccad6e47b5fde467bdcb7a134af1820475966292f6a"
+      },
+      {
+        "target": "/product-images/cjc-1295-no-dac-5mg.webp",
+        "from": "/product-images/cjc-1295-no-dac-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/cjc-1295-no-dac-5mg.webp",
+        "outputBytes": 19042,
+        "sha256": "7edf95b9baa9a8d52e0d06aa87a8be35fc7362aa922210ca23176660440bc507"
+      },
+      {
+        "target": "/product-images/retatrutide-10mg.webp",
+        "from": "/product-images/retatrutide-20mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels",
+        "output": "/product-images/retatrutide-10mg.webp",
+        "outputBytes": 22240,
+        "sha256": "6a11023d571ef6b15534b4570084595cad277d0b86fc5f6c0092dec42d43b9cb"
+      },
+      {
+        "target": "/product-images/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+        "from": "/product-images/bpc-tb-blend-10mg-10mg.webp",
+        "method": "Strength text re-lettered in both printed locations with scripts/derive-dose-variants.mjs; bottle, compound name, logo and disclaimers are the source pixels (compound column re-lettered as well: two-compound blend layout)",
+        "output": "/product-images/cjc-1295-w-o-dac-ipamorelin-5mg-5mg.webp",
+        "outputBytes": 21722,
+        "sha256": "3acdbf763fe4491b2373fbcf9aac6267469d958081c4b23576953b476ec8fc7b"
+      }
+    ],
+    "generic": {
+      "output": "/product-images/generic-vial.webp",
+      "outputBytes": 18226,
+      "sha256": "017b29674b11997fa2f4879ff603ddd3f0cccda9ae027d229d5a0b1198bcf230",
+      "from": "/product-images/igf-1-lr3-1mg.webp",
+      "method": "compound and strength text removed from the label; used with an HTML caption when a SKU has no exact render"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+- [Tessera agent identity](agent-identity-boundary.md) — Tessera acts under its own identity and never impersonates the operator.
+- [Repository migration](repository-migration-policy.md) — Grok-ready is final, TX is staging; all agents must agree and the owner must confirm the deletion list.

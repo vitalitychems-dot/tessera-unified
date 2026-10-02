@@ -1,0 +1,32 @@
+modules = ["nodejs-24", "python-base-3.13", "postgresql-16"]
+
+[deployment]
+router = "application"
+deploymentTarget = "autoscale"
+
+[deployment.postBuild]
+args = ["pnpm", "store", "prune"]
+env = { "CI" = "true" }
+
+[workflows]
+runButton = "Project"
+
+[agent]
+stack = "PNPM_WORKSPACE"
+expertMode = true
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 20000
+
+[nix]
+channel = "stable-25_05"
+
+[userenv]
+
+[userenv.production]
+BTC_ADDRESS = "bc1ppp4kuht57tsckcykyr846x7m70qq0cylghnvhmmspv0q8yypp5zsda3gv0"
+CRYPTO_REWARD_PERCENT = "5"
+ETH_ADDRESS = "0x4ab7886533d9a881aa785b19ba47c6a379b2ae67"
+ZELLE_DISPLAY_NAME = "Collin Keane"
+ZELLE_RECIPIENT = "7797174445"

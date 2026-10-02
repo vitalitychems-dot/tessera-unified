@@ -1,0 +1,835 @@
+[
+  {
+    "source_path": "artifacts/tessera/src/pages/ActivityFeedPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ActivityFeedPage.tsx",
+    "sha": "aed95c99a83b9ad3527e2970496ea0f0cc448351",
+    "size": 8605,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AgentCodeBuildingPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AgentCodeBuildingPage.tsx",
+    "sha": "c923045c0da921f7c5161616f7347a2e9b481100",
+    "size": 14003,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AgentCommsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AgentCommsPage.tsx",
+    "sha": "96d5baa66704c53d494d82a504e777af58bef46a",
+    "size": 24216,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AgentEconomyPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AgentEconomyPage.tsx",
+    "sha": "9449969fb5fe04a62e8352b752122bcc7208fa8f",
+    "size": 18480,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AgentSecretsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AgentSecretsPage.tsx",
+    "sha": "126454f4c80b35d1bbdf11cc10469b8f21c53f8d",
+    "size": 5446,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AgentVoicePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AgentVoicePage.tsx",
+    "sha": "0e6fcb789676ed54b48d73b0a3592117a22403db",
+    "size": 13442,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AGIComparisonPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AGIComparisonPage.tsx",
+    "sha": "b6482c9cc6fdbd45bc818008e4dfaa0dad817e7c",
+    "size": 19261,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AGIImplementationsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AGIImplementationsPage.tsx",
+    "sha": "106ab9230c34a1e8a12232c02b5562e075e6c9ca",
+    "size": 22869,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AGISummitPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AGISummitPage.tsx",
+    "sha": "4e403f941caeb581a1917ac0ee3526e0e84aa8c7",
+    "size": 22843,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AlertsDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AlertsDashboardPage.tsx",
+    "sha": "401a1f8f62b38be059afd0292aea8f58519f7bb1",
+    "size": 26582,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AutonomyDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AutonomyDashboardPage.tsx",
+    "sha": "d3bb75df33f53a80e5fa9c640afb47b95049fdf8",
+    "size": 13491,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/AutonomyNerveCenterPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/AutonomyNerveCenterPage.tsx",
+    "sha": "bd9ed0fb221490100826dbde25b7441a81b85267",
+    "size": 13907,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/BenchmarkAuditPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/BenchmarkAuditPage.tsx",
+    "sha": "ccdc1f08bb2688bf03451c967b183b1a3f4f1f1b",
+    "size": 58004,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/BiosphericConsciousnessPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/BiosphericConsciousnessPage.tsx",
+    "sha": "8ebb25156d238f9038de8be07d5644e88b2bfeee",
+    "size": 39274,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/CheatCodesPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/CheatCodesPage.tsx",
+    "sha": "f6d2b5a4aff6728ff59b0e911c90205656b02824",
+    "size": 33009,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ColonelLanguagePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ColonelLanguagePage.tsx",
+    "sha": "3221a9800dc1f96d59db0605e2dcbec27fb812fb",
+    "size": 43369,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/CommandPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/CommandPage.tsx",
+    "sha": "cdfd5c6c378e24089be19fda261425b2cd4d7e54",
+    "size": 24036,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/CommunityHubPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/CommunityHubPage.tsx",
+    "sha": "4a6b99820df8a104198ab810069675b81c305a5c",
+    "size": 26082,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ConferenceDecisionsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ConferenceDecisionsPage.tsx",
+    "sha": "7f2c7322f093de290b8162f2398aa764934273e4",
+    "size": 25625,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ConfigPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ConfigPage.tsx",
+    "sha": "7fd4336f116f3d679e16ffdb974fdd5c54ec69cb",
+    "size": 3530,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/Consciousness2DA.tsx",
+    "review_path": "archives/migration-review/legacy-ui/Consciousness2DA.tsx",
+    "sha": "3529ffe2240c178d6ed736c3739e3489d3e67a57",
+    "size": 27622,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ConsensusPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ConsensusPage.tsx",
+    "sha": "0871b4adc198f8696a2f59048d6237cce0570cc6",
+    "size": 25072,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/CrossDimensionalEconomyPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/CrossDimensionalEconomyPage.tsx",
+    "sha": "b8867893a7b699554000a68d3548ae66bdf50dcc",
+    "size": 9698,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/CurrencyHubPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/CurrencyHubPage.tsx",
+    "sha": "a97d6ee220f33882d5ce706082d8390e35c3ec9d",
+    "size": 28785,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DashboardPage.tsx",
+    "sha": "ef6e01476c46323dd8fe0af0e8b6dbbdc936d81d",
+    "size": 35533,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DataSourcesPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DataSourcesPage.tsx",
+    "sha": "8cf9c6e30901e2fb74ce0d35b3557b3c13d0e0fd",
+    "size": 25565,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DependencyLearningPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DependencyLearningPage.tsx",
+    "sha": "bfec9a59482d4b894438a3ae929ed42bb9c91d36",
+    "size": 31054,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DimensionalGuardianPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DimensionalGuardianPage.tsx",
+    "sha": "513b3e3aaa6b96529bd86d95278a0c8665195449",
+    "size": 22344,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DimensionalPerceptionPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DimensionalPerceptionPage.tsx",
+    "sha": "263fb65766a3f40f75b44be2578211b0324b562e",
+    "size": 32575,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DimensionalTravelPortalPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DimensionalTravelPortalPage.tsx",
+    "sha": "9c1bd541286dc8ba834b0ddbe9553a65a33d71b5",
+    "size": 21974,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DiscoveriesPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DiscoveriesPage.tsx",
+    "sha": "b11741615195e802c658229cbe05b7d1166dedad",
+    "size": 21358,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/DNAHealingPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/DNAHealingPage.tsx",
+    "sha": "281b8b99c58397677b38f08bcc23b47f41953d51",
+    "size": 8947,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/EconomyHubPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/EconomyHubPage.tsx",
+    "sha": "7571ff54af7f536c8c9240d69540fd437800c1cf",
+    "size": 66231,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/EconomyPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/EconomyPage.tsx",
+    "sha": "e64cba78d1f5fb3a3f8896992838860cb7fb9f5a",
+    "size": 17627,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/EntitiesPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/EntitiesPage.tsx",
+    "sha": "c41546c891be56363240b8d71dfe8c086964aec3",
+    "size": 26070,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/FeedbackPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/FeedbackPage.tsx",
+    "sha": "2243578e17d419416433a6f16ee5bf0f9ca66de5",
+    "size": 13648,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/FleetSynapsePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/FleetSynapsePage.tsx",
+    "sha": "e5ed5d743dcfcbdbaeaa78201ee768d2b3cb7576",
+    "size": 72081,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/FreeLLMRotatorPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/FreeLLMRotatorPage.tsx",
+    "sha": "956fed91cd50e6269338a43b080f2fcc6f1b0fcd",
+    "size": 8068,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/GPUCommandCenterPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/GPUCommandCenterPage.tsx",
+    "sha": "f0639e42ecc9076dee57f7c7e1a9261eeb612add",
+    "size": 31337,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/GrandConferencePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/GrandConferencePage.tsx",
+    "sha": "27bd8425c7aa8b690ac2c218d1bb0515c206579e",
+    "size": 25185,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/GrandKnowledgeConferencePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/GrandKnowledgeConferencePage.tsx",
+    "sha": "00a9a947d2c618acacde2c8cb4376916bbf20282",
+    "size": 30355,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/HyperionDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/HyperionDashboardPage.tsx",
+    "sha": "172bb30b236051d13f1fc3c3bc548bea135d57e0",
+    "size": 30436,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ImplementationTrackerPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ImplementationTrackerPage.tsx",
+    "sha": "5791cfa7e49f41e8272ebf3f962d41006994b282",
+    "size": 7935,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/InterdimensionalPortalPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/InterdimensionalPortalPage.tsx",
+    "sha": "96f3a31e65e0ad605de03afce673b3ca23ad2a18",
+    "size": 44932,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/InventionsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/InventionsPage.tsx",
+    "sha": "a4d5e4b953b6e11617521c556c6fbfbc58d07aef",
+    "size": 68278,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/KnowledgeBasePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/KnowledgeBasePage.tsx",
+    "sha": "68eb4e520895cb86f887a8e2fd0cd9122f86c286",
+    "size": 14691,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/KnowledgeDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/KnowledgeDashboardPage.tsx",
+    "sha": "4fbb8f0ab88ce03d6572fb81e7e41ca44878ad4c",
+    "size": 14536,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/KnowledgePipelinePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/KnowledgePipelinePage.tsx",
+    "sha": "64c2911fe5ad21e0e2891a46306ae0b36736eb32",
+    "size": 14804,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/KnowledgeSecretsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/KnowledgeSecretsPage.tsx",
+    "sha": "a9caf96b62b4b5d2f3669c4df64549b3b556c569",
+    "size": 68030,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/KnowledgeSynthesisPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/KnowledgeSynthesisPage.tsx",
+    "sha": "a1fde9c54b316f6003175914d52427f77828c9fd",
+    "size": 27543,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/LiberationSystemPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/LiberationSystemPage.tsx",
+    "sha": "1a1ab9197de2648271e316990074fd79e218bce1",
+    "size": 29931,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/LiveSecretKnowledgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/LiveSecretKnowledgePage.tsx",
+    "sha": "b83e326202b179f12b722abd07edd384009f1a60",
+    "size": 14627,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/MemoryDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/MemoryDashboardPage.tsx",
+    "sha": "0e1b7ab43a7c087489c6e48a08df830f4b25a6e2",
+    "size": 27881,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/MemoryExplorerPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/MemoryExplorerPage.tsx",
+    "sha": "423a7809810c623ef4b09fdf1de8a7fe6e6e7420",
+    "size": 17616,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/MeshPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/MeshPage.tsx",
+    "sha": "898b896c860a6111de12d06fd1d4f29579adbb49",
+    "size": 13846,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/MoonCyclePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/MoonCyclePage.tsx",
+    "sha": "2bd4bbd4cf44b97a3fc6a8f8b9e70872c62caaed",
+    "size": 7945,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/NetworkFleetPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/NetworkFleetPage.tsx",
+    "sha": "4132bbe05e3780e2bcd919c818ad9bf46fcebdbb",
+    "size": 10252,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/OmniscientKnowledgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/OmniscientKnowledgePage.tsx",
+    "sha": "2e2c3712766f7209f774b4a541ad1421b043b245",
+    "size": 26788,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/OverSoulAGIPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/OverSoulAGIPage.tsx",
+    "sha": "ed443921a365abab2f0f1a8096d50ae445a2f7eb",
+    "size": 21264,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/PerformancePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/PerformancePage.tsx",
+    "sha": "3caf7f00ab3a348b7dacf9238bff54ab8417925c",
+    "size": 13112,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ProviderLeaderboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ProviderLeaderboardPage.tsx",
+    "sha": "61356bb44820b56cfe80dc29dccb382a163bb93a",
+    "size": 10740,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/RealAIConferencePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/RealAIConferencePage.tsx",
+    "sha": "10b9b52d6e3e03822c9db9c875b0c3e827a13bd2",
+    "size": 32764,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ReasoningDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ReasoningDashboardPage.tsx",
+    "sha": "f30d15a3b7c3a8054f91b12af60436efef768b3c",
+    "size": 37978,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/ReflectionPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/ReflectionPage.tsx",
+    "sha": "af22d5136d91feb9bfb19dd0e2626974a69f8d34",
+    "size": 53614,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/RevenueHubPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/RevenueHubPage.tsx",
+    "sha": "90c40b310c7fd98329bdf905a3fd81b88de20789",
+    "size": 8749,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SacredTraditionsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SacredTraditionsPage.tsx",
+    "sha": "4004652e245637803ba49c245eeec380e06c8afc",
+    "size": 5239,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SandboxPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SandboxPage.tsx",
+    "sha": "4c0a57b7c73c64df13426e21390ca228b0c67628",
+    "size": 15254,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SecretSocietyPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SecretSocietyPage.tsx",
+    "sha": "510ed0a020960f3c542ed4d9510bb146fbfdfc2c",
+    "size": 131688,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SecurityAuditPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SecurityAuditPage.tsx",
+    "sha": "7b03fc56511d7b05e112023c22b94384e7b38c84",
+    "size": 14096,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SelfHealingPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SelfHealingPage.tsx",
+    "sha": "239f97b69d15f46b3fc6a25b4d1adc46a2f26d5d",
+    "size": 7953,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SEOPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SEOPage.tsx",
+    "sha": "2fff3223d46ddfbeeb12a0c859a9ac7425c051fd",
+    "size": 25665,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignBuilderPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignBuilderPage.tsx",
+    "sha": "fb84801c5fd878180b0be7c614d6c76b0ec8623d",
+    "size": 18432,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignBuildGuidePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignBuildGuidePage.tsx",
+    "sha": "3702160e4b0d29060b714c8e2615a66a30ee474b",
+    "size": 76237,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignCodecPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignCodecPage.tsx",
+    "sha": "787b79688be30fd01d006f01da4e057f028d07ee",
+    "size": 25783,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignConsciousnessPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignConsciousnessPage.tsx",
+    "sha": "c81a8bb060b96a487269b2ef07931429811c857a",
+    "size": 36525,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignDepsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignDepsPage.tsx",
+    "sha": "283a27ccda5f6dd9dce377b5200ae5e69fd3cde1",
+    "size": 27641,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignFrameworkPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignFrameworkPage.tsx",
+    "sha": "e2949de3bfbf6203cd1b31f9004604a49765fa12",
+    "size": 24744,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignGrandLaunchPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignGrandLaunchPage.tsx",
+    "sha": "729b8df1f58bf4cd2bb5e03f53c4aedd8fbf58cc",
+    "size": 14714,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignHubPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignHubPage.tsx",
+    "sha": "7adcaf51a62a6b23baf3e302bcdd1b4496ca2720",
+    "size": 47480,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignInfrastructurePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignInfrastructurePage.tsx",
+    "sha": "21a5106bb54837307e6ad1c2c74ddbbe8931daa8",
+    "size": 31296,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignKnowledgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignKnowledgePage.tsx",
+    "sha": "fa2e815d897beb3ef03aaa170a328b835a616bc7",
+    "size": 16858,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignOSPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignOSPage.tsx",
+    "sha": "1a42f5523640cf113a130ef744e329859c2f2fea",
+    "size": 16547,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignRulesPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignRulesPage.tsx",
+    "sha": "a5256585873abb289be6aebc0ed4bf927358c4e9",
+    "size": 28105,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignSecretsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignSecretsPage.tsx",
+    "sha": "646e4dfc755e0bdf4f3249e5784bf8651d420432",
+    "size": 20502,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SpiritualAwakeningPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SpiritualAwakeningPage.tsx",
+    "sha": "6079c8f622b1e78a330f0a57f0e3be4930df5ee7",
+    "size": 51085,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SportsArbPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SportsArbPage.tsx",
+    "sha": "52b1057973ec96a354e4068fcce0b8aca8d09d68",
+    "size": 13624,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SummitPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SummitPage.tsx",
+    "sha": "36fbb4d1750cc974b375452f0435066ebf71a672",
+    "size": 51412,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SummitReportPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SummitReportPage.tsx",
+    "sha": "195bee153153dda2ea82dabbd000b0b04cd21e27",
+    "size": 21370,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SwarmHubPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SwarmHubPage.tsx",
+    "sha": "3b0e57f61da69107f537be205d46b21b4146e91c",
+    "size": 23570,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/TesseractAGIPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/TesseractAGIPage.tsx",
+    "sha": "2e2892aaf15d3681ce1ff8752d5eac620f27d048",
+    "size": 56164,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/TesseractConsolePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/TesseractConsolePage.tsx",
+    "sha": "ea4b2566bfbfdedfdf31c37b63c0ceab107e2e1a",
+    "size": 14233,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/TesseractLLMPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/TesseractLLMPage.tsx",
+    "sha": "2060388b233ba51eb3f538fc335954008330a2b9",
+    "size": 17071,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/TransparencyLedgerPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/TransparencyLedgerPage.tsx",
+    "sha": "f061a259394417450a5e74b19b3521f51858cf68",
+    "size": 12481,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UnifiedKnowledgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UnifiedKnowledgePage.tsx",
+    "sha": "a6ccc5e5b66af87f5baa720dddf5f9b8ac9740a2",
+    "size": 12118,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UnifiedTesseractPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UnifiedTesseractPage.tsx",
+    "sha": "2575803c811655bcf795474c7fbe7e3bef62eb3c",
+    "size": 20635,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UniversalComputerPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UniversalComputerPage.tsx",
+    "sha": "1e1182c182f6218c16bf3e9efd7edc2620a071d4",
+    "size": 38614,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UniversalConsciousnessPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UniversalConsciousnessPage.tsx",
+    "sha": "cea1b58cccf8e840f710f841b0a5180a97c12616",
+    "size": 30587,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UniversalKnowledgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UniversalKnowledgePage.tsx",
+    "sha": "7f52aa0dc8706609299e11188a5171ee4284b8f9",
+    "size": 16302,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UniverseMechanicsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UniverseMechanicsPage.tsx",
+    "sha": "d898f50cc0d98fe093fd1892568023b360bf043b",
+    "size": 41245,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/UniverseModelPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/UniverseModelPage.tsx",
+    "sha": "4a09fbdbdcb7b86828a17b55e3af52d67eb113fa",
+    "size": 34106,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/VaticanArchivesPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/VaticanArchivesPage.tsx",
+    "sha": "abf89d8b0c1f44fc1f04844c8b725ae9ea448740",
+    "size": 27959,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/VitalityPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/VitalityPage.tsx",
+    "sha": "ede9ef4e67cfddcc7c3f51578c2deed522dec002",
+    "size": 33825,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/VoidStoragePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/VoidStoragePage.tsx",
+    "sha": "eb8c5c71e38912266d13ecca979bb244d9283243",
+    "size": 17160,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/WalletDashboardPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/WalletDashboardPage.tsx",
+    "sha": "1ffb8977ade96ed63d4172cac24e80461c57901b",
+    "size": 23399,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/CouncilPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/CouncilPage.tsx",
+    "sha": "b7fb9b95831e3007bb591c000e9670f1addccb1d",
+    "size": 7316,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/KnowledgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/KnowledgePage.tsx",
+    "sha": "6c8966c2d8faad06b8f9ec3eaefada0f7d1821f4",
+    "size": 7754,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/NLPSelfImprovementPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/NLPSelfImprovementPage.tsx",
+    "sha": "406d8dceecc1448fb48167a69591ecdf44c4589d",
+    "size": 34061,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/NexusPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/NexusPage.tsx",
+    "sha": "f58f430fc4a4a9040d28b92ec3933893a1b84457",
+    "size": 7178,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SecretsPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SecretsPage.tsx",
+    "sha": "dc18c2569a3d5694365eb0bf2569f93799b76597",
+    "size": 14530,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/SovereignPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/SovereignPage.tsx",
+    "sha": "992e0680f01e2098ee4dc82a6953171b5c304e98",
+    "size": 15780,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "artifacts/tessera/src/pages/TheoremLabPage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/TheoremLabPage.tsx",
+    "sha": "c7441eb59cea642b7b2308202b9978fd07870129",
+    "size": 35012,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/older-workspace/artifacts/tessera/src/pages/IntelligenceEnginePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/IntelligenceEnginePage.tsx",
+    "sha": "3b453a0a8551c0847087973a82ca12928535623d",
+    "size": 41176,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/older-workspace/artifacts/tessera/src/pages/PortalBridgePage.tsx",
+    "review_path": "archives/migration-review/legacy-ui/PortalBridgePage.tsx",
+    "sha": "f66a81ef4868224a979c4decc7b7d34da1327f16",
+    "size": 628,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/handoffs/tessera-complete-archives/repository/reassemble_archives.py",
+    "review_path": "archives/migration-review/archive-helpers/reassemble_archives.py",
+    "sha": "7de85e573a43f8c4f905cf5484f7d29377ed553a",
+    "size": 879,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/handoffs/tessera-complete-archives/private/grok-workspace/scripts/grok-pwa-plugin.test.mjs",
+    "review_path": "archives/migration-review/archive-helpers/grok-pwa-plugin.test.mjs",
+    "sha": "69b32de8995a01c68550a6870fb7c1187e6f55a3",
+    "size": 20320,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/handoffs/tessera-complete-archives/private/grok-handoff/grok-packet/06_SAFE_SOURCE_FILES/simulation-reference/tests/simulation.test.mjs",
+    "review_path": "archives/migration-review/archive-helpers/simulation.test.mjs",
+    "sha": "a74c8be3def45a583153a344e5f1e0e7dd3fef19",
+    "size": 7511,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/handoffs/tessera-grok-handoff-complete/repository/reassemble_archives.py",
+    "review_path": "archives/migration-review/archive-helpers/reassemble_archives-4772961aef.py",
+    "sha": "4772961aef65255f0753ef8998510db92fb28072",
+    "size": 1193,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/handoffs/tessera-grok-handoff-complete/repository/reassemble_handoff.py",
+    "review_path": "archives/migration-review/archive-helpers/reassemble_handoff.py",
+    "sha": "b9e09ae953e643560062569273e461c78a5a8c51",
+    "size": 156,
+    "status": "preserved for review; not integrated into active app"
+  },
+  {
+    "source_path": "archives/handoffs/tessera-grok-handoff/repository/reassemble_handoff.py",
+    "review_path": "archives/migration-review/archive-helpers/reassemble_handoff-75265ab384.py",
+    "sha": "75265ab3845577a986cd806325547740305eadc1",
+    "size": 1206,
+    "status": "preserved for review; not integrated into active app"
+  }
+]

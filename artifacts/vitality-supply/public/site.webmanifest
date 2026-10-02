@@ -1,0 +1,24 @@
+{
+  "name": "Vitality Chems Research Catalog",
+  "short_name": "Vitality Chems",
+  "description": "Research-use-only compound catalog and account portal.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#05040a",
+  "theme_color": "#05040a",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "compared_candidate": "4072851ad13536b3e65cbd7fecfe73d306038d32",
+  "status": "Differences are not proof of missing functionality. Keep the newer candidate; compare these against source variants and agent reports.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "bc1648980cd987661c72feba661e169ff5f4a5f6",
+      "size": 1783
+    },
+    {
+      "path": ".gitignore",
+      "sha": "ffe712fc739dffefe4dacf6c6db6b1991232456b",
+      "size": 1012
+    },
+    {
+      "path": ".agents/memory/MEMORY.md",
+      "sha": "42ac02d932538342eba775cd8dee59322c90490d",
+      "size": 131
+    },
+    {
+      "path": "artifacts/api-server/src/app.ts",
+      "sha": "e6660d6d92266a3d2abaffdef43d2559cd3194e8",
+      "size": 26495
+    },
+    {
+      "path": "artifacts/api-server/src/index.ts",
+      "sha": "0833fc99a0b7b29eb1ecec21e19ac1ebedd6ede7",
+      "size": 16941
+    },
+    {
+      "path": "artifacts/api-server/src/__tests__/invention-glb-upload.test.ts",
+      "sha": "1da29af3842cc66d19cd74a188ce60f266371826",
+      "size": 16749
+    },
+    {
+      "path": "artifacts/api-server/src/__tests__/moltbook-sandbox-boundary.test.ts",
+      "sha": "b6d56d5a3c03c88b7669cf4857fa63abf8906e49",
+      "size": 1102
+    },
+    {
+      "path": "artifacts/api-server/src/lib/consensus-engine.ts",
+      "sha": "c5b0704fcd29788f666cd57a76bd6c864fffd08a",
+      "size": 32890
+    },
+    {
+      "path": "artifacts/api-server/src/lib/eval-runner.ts",
+      "sha": "5b88b67ed7fcb624ae8d321e368e839a07d09a53",
+      "size": 40549
+    },
+    {
+      "path": "artifacts/api-server/src/lib/father-verify-throttle.ts",
+      "sha": "39c838d8e4fcf09fd2cd3a06ff4d9c8c44d7d0ef",
+      "size": 1703
+    },
+    {
+      "path": "artifacts/api-server/src/lib/forum-identity-registry.ts",
+      "sha": "30997f3ebfd9cb20dc111ee6192ac57a921986f2",
+      "size": 7135
+    },
+    {
+      "path": "artifacts/api-server/src/lib/llm-client.ts",
+      "sha": "cefd10edf2540807590142a2415de669b358dbeb",
+      "size": 6924
+    },
+    {
+      "path": "artifacts/api-server/src/lib/moltbook-bridge.ts",
+      "sha": "3c32e844abbd2e3466a61394fba2f69e8e4121de",
+      "size": 1893
+    },
+    {
+      "path": "artifacts/api-server/src/lib/safe-fetch.ts",
+      "sha": "98e81fe51af5828086a222cc98354f179295501a",
+      "size": 3307
+    },
+    {
+      "path": "artifacts/api-server/src/lib/secureExternalWrapper.ts",
+      "sha": "2dc3229b3129df7c2e46c4a6a41f6a65ae8bc948",
+      "size": 11223
+    },
+    {
+      "path": "artifacts/api-server/src/lib/sovereign-loop.ts",
+      "sha": "0bed4e4ed481b9aa97aed0c3523a12c9828f082e",
+      "size": 33652
+    },
+    {
+      "path": "artifacts/api-server/src/lib/sovereign-society.ts",
+      "sha": "67769d6130c5ebbdfa20d08704f486cf3436753a",
+      "size": 18043
+    },
+    {
+      "path": "artifacts/api-server/src/lib/tessera-codex.ts",
+      "sha": "f876d32f0ff497d19fdf0aa0980766b5ee242c7d",
+      "size": 19235
+    },
+    {
+      "path": "artifacts/api-server/src/routes/agi.ts",
+      "sha": "a6d42ea0deac83f8c377710f0cc94299e716da9e",
+      "size": 5209
+    },
+    {
+      "path": "artifacts/api-server/src/routes/compression.ts",
+      "sha": "e5dd0425f4dc8c8dd8d3f46c0f43c84bd832c6ef",
+      "size": 4646
+    },
+    {
+      "path": "artifacts/api-server/src/routes/council.ts",
+      "sha": "fb1ae0757ab54df945242e037fc33bcb9e7d4301",
+      "size": 31104
+    },
+    {
+      "path": "artifacts/api-server/src/routes/departments.ts",
+      "sha": "ba3c5fbfc186a3043237967bd340a60c1c7d6e68",
+      "size": 2484
+    },
+    {
+      "path": "artifacts/api-server/src/routes/diagnostics.ts",
+      "sha": "da5141cc5fb5bc5631169016d2e63670a635fb1b",
+      "size": 8340
+    },
+    {
+      "path": "artifacts/api-server/src/routes/evolution-health.ts",
+      "sha": "a069b89080f8607c765f31987192d8cab3aaaff6",
+      "size": 4559
+    },
+    {
+      "path": "artifacts/api-server/src/routes/father-key-conference.ts",
+      "sha": "7684df0a864e93df6f4c80b8908ac80fdff05aee",
+      "size": 9125
+    },
+    {
+      "path": "artifacts/api-server/src/routes/fleet-synapse.ts",
+      "sha": "11b1745e7e746eada2a891a850118b12fa8549e5",
+      "size": 13808
+    },
+    {
+      "path": "artifacts/api-server/src/routes/forum.ts",
+      "sha": "11b5f80464d63747a8566e65a09e87602992f6e4",
+      "size": 42360
+    },
+    {
+      "path": "artifacts/api-server/src/routes/grand-evolution.ts",
+      "sha": "0892ed8b06a778cc25ff33b44875c60b4258953c",
+      "size": 6463
+    },
+    {
+      "path": "artifacts/api-server/src/routes/index.ts",
+      "sha": "6dade49360eaf67122db2f60da10ac0e65e83bb1",
+      "size": 7173
+    },
+    {
+      "path": "artifacts/api-server/src/routes/inventions.ts",
+      "sha": "6d7b9ca14023963ecc5ddd31749800bd5aef4258",
+      "size": 105338
+    },
+    {
+      "path": "artifacts/api-server/src/routes/legacy-engines.ts",
+      "sha": "6ab5ceded51c698b1c54e59c7b6f050e332b0462",
+      "size": 15514
+    },
+    {
+      "path": "artifacts/api-server/src/routes/provider-sovereignty.ts",
+      "sha": "3e456ac9f826c4ca56a891a1f5a80faa49c791fe",
+      "size": 8554
+    },
+    {
+      "path": "artifacts/api-server/src/routes/reality-audit.ts",
+      "sha": "7b71ce55cf6e80da0910bffbfa54aa47ea3b903c",
+      "size": 3715
+    },
+    {
+      "path": "artifacts/api-server/src/routes/rick.ts",
+      "sha": "3f8927cd6f8f9b159c3eac73a85b221b85a1e17d",
+      "size": 41881
+    },
+    {
+      "path": "artifacts/api-server/src/routes/secret-knowledge.ts",
+      "sha": "d73e513ceb36f6e3e9e7faf2520526398c842311",
+      "size": 10857
+    },
+    {
+      "path": "artifacts/api-server/src/routes/sovereign-data.ts",
+      "sha": "9db045844a64c9c6bcec2a580f2739f2104816c1",
+      "size": 46769
+    },
+    {
+      "path": "artifacts/api-server/src/routes/sovereign-doctrine.ts",
+      "sha": "cdca4ddf2a37e7b2d1cb530ee0792cad3c7f4f30",
+      "size": 29310
+    },
+    {
+      "path": "artifacts/api-server/src/routes/sovereign-engines.ts",
+      "sha": "892a465d71ee1a4fdcd4e945b24d24a30ef4a0eb",
+      "size": 9264
+    },
+    {
+      "path": "artifacts/api-server/src/routes/storage.ts",
+      "sha": "3a8e7e419fb84bd0132c49c8ca83d83e6953569f",
+      "size": 7230
+    },
+    {
+      "path": "artifacts/api-server/src/routes/swarm.ts",
+      "sha": "75becc1d9d6db70ac47d253f7f73418c2d16afb5",
+      "size": 10520
+    },
+    {
+      "path": "artifacts/api-server/src/routes/tessera-codex.ts",
+      "sha": "333ccefaf97d3c2316cd8b14ff1a827712c8adb0",
+      "size": 6363
+    },
+    {
+      "path": "artifacts/api-server/src/routes/training-evolution.ts",
+      "sha": "acd47952ef7e7c00315c24157fa3470db1d1872d",
+      "size": 7090
+    },
+    {
+      "path": "artifacts/api-server/src/routes/universe.ts",
+      "sha": "07c8ee84234152fad2637399b21339520a4b8a2e",
+      "size": 8989
+    },
+    {
+      "path": "artifacts/api-server/src/lib/ingestion/pipeline.ts",
+      "sha": "1cb09fe17670233062d17f6dc93468a1d2f07b33",
+      "size": 11781
+    },
+    {
+      "path": "artifacts/api-server/src/lib/ingestion/scheduler.ts",
+      "sha": "4f320521700fa1b4c2901bb4cefdf47f5e38add7",
+      "size": 30749
+    },
+    {
+      "path": "artifacts/tessera/public/opengraph.jpg",
+      "sha": "ca7efd8fa0df85c2545c07f7205c2ef3773eec83",
+      "size": 70424
+    },
+    {
+      "path": "artifacts/tessera/src/App.tsx",
+      "sha": "81b7f1eaa51ac5f16b5d493d76ad39301601654c",
+      "size": 17641
+    },
+    {
+      "path": "artifacts/tessera/src/components/ChatArea.tsx",
+      "sha": "87b9e88e606f39d4a54a6dcd82cd20f7246e52a8",
+      "size": 64757
+    },
+    {
+      "path": "artifacts/tessera/src/components/Sidebar.tsx",
+      "sha": "60ea33f2179161d64038b418d8454c4d39575725",
+      "size": 22838
+    },
+    {
+      "path": "artifacts/tessera/src/components/TesseractKeyGate.tsx",
+      "sha": "1f865bc154abaf73a8d015e4fe42dfcc6bf09801",
+      "size": 14313
+    },
+    {
+      "path": "artifacts/tessera/src/lib/queryClient.ts",
+      "sha": "e79d409963e36f738c775c56e55606e0da6857b9",
+      "size": 6371
+    },
+    {
+      "path": "artifacts/tessera/src/pages/CodexPage.tsx",
+      "sha": "8f475fd29df05a3e8ea9fc40148c3cec734f0892",
+      "size": 18417
+    },
+    {
+      "path": "artifacts/tessera/src/pages/DepartmentsPage.tsx",
+      "sha": "bca4f5417c34cd605ef55eb383886b467b8a88cc",
+      "size": 15102
+    },
+    {
+      "path": "artifacts/tessera/src/pages/RoyalRolePage.tsx",
+      "sha": "71745149c402cd556010fe4bd6cbd95e3950f40f",
+      "size": 9045
+    },
+    {
+      "path": "artifacts/tessera/src/pages/SacredConferencePage.tsx",
+      "sha": "32d2cfa8fd6cbb60aa23818b377399fd94d78ef5",
+      "size": 36034
+    },
+    {
+      "path": "artifacts/tessera/src/pages/SettingsPage.tsx",
+      "sha": "e402b0f43abcb4747dd27fe558934ab0676eb631",
+      "size": 17981
+    },
+    {
+      "path": "artifacts/tessera/src/pages/SovereigntyDashboardPage.tsx",
+      "sha": "86160589d192aa29ae29d11eadd333a124278fd8",
+      "size": 20883
+    },
+    {
+      "path": "artifacts/tessera/src/pages/SovereigntyReadinessPage.tsx",
+      "sha": "33c2b79dde56f2af7b3de6e5b02d10ff43902005",
+      "size": 25824
+    },
+    {
+      "path": "artifacts/tessera/src/pages/SwarmVisualizationPage.tsx",
+      "sha": "ef1048d550c38574cbfdb5920a9ca05fdc54a258",
+      "size": 8887
+    },
+    {
+      "path": "artifacts/tessera/src/pages/SystemPage.tsx",
+      "sha": "2c6755fcfa34d4895025edc7a03582b813aba804",
+      "size": 30272
+    },
+    {
+      "path": "artifacts/tessera/src/pages/TesseractForumPage.tsx",
+      "sha": "1aec61e9a4166ff08a49546f2e5ba89d0c58ac8a",
+      "size": 94884
+    },
+    {
+      "path": "artifacts/tessera/src/types/api.ts",
+      "sha": "acc82767d6fcbd3f2cd27fa907ab46c9a34c0ab2",
+      "size": 11337
+    },
+    {
+      "path": "artifacts/tessera/src/components/chat/ChatInputToolbar.tsx",
+      "sha": "0672cdc20174901bb73ff688a05f1208a146d3f0",
+      "size": 7301
+    },
+    {
+      "path": "artifacts/tessera/src/components/chat/ChatMessageItem.tsx",
+      "sha": "910c0373c6cf540b6d73b41b95edabda547f4fcc",
+      "size": 17954
+    },
+    {
+      "path": "artifacts/tessera/src/components/chat/ChatMessageList.tsx",
+      "sha": "4767190d6ea2eaca36a4c451049982b911edf2b6",
+      "size": 8125
+    },
+    {
+      "path": "artifacts/tessera/src/components/chat/ChatVoiceModeOverlay.tsx",
+      "sha": "2dcafabc97543a838bf9049e18dde5219f2639de",
+      "size": 6921
+    }
+  ]
+}

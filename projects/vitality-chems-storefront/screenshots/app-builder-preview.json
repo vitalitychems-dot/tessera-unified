@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Vitality Chems — HPLC-documented research peptides",
+      "hasCanvas": false,
+      "bodyTextLen": 4651,
+      "bodyTextHash": "955c0e3523d85fc91f7b3b0faf351a4ef61cb2286d876d68f9886a3afdd31d15",
+      "bodyTextPrefix": "Lab rates: 3 vials 8% · 5 vials 12% · 10 vials 18% · Reward cred",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Vitality Chems — HPLC-documented research peptides",
+      "hasCanvas": false,
+      "bodyTextLen": 4160,
+      "bodyTextHash": "0d1403724bdca89163e3311e6b0c2cfd91e4e5db68b04e10f12fb85643e82938",
+      "bodyTextPrefix": "3 vials 8% off · 5 vials 12% · 10 vials 18% VITALITY CHEMS ALL T",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

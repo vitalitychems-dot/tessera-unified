@@ -1,0 +1,58 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "UI7mrFwc6ZkAlE2p37hGF"
+uri = "file://reports/website-audit.html"
+type = "text"
+title = "Vitality Supply website audit"
+description = "Repairs completed, verified photo coverage, critical checkout findings, and remaining launch requirements."
+logical_id = "dfedc974-230d-46a0-9535-2b404f54f884"
+content_hash = "sha256:6f304a7a7c8e0c3c6cc5796ed2485b8f0d0a44b4d0b88f451fd9397032668d3c"
+size = 4622
+mtime_ms = 1789402187004
+storage_uri = "gcs://replit-rams-assets-riker/rams/assets/repl:a929c3c7-b6c0-4565-a752-f1d3c546f5d3/dfedc974-230d-46a0-9535-2b404f54f884/e7ca7d67-a30b-4711-ab12-69d581369138"
+storage_version_token = "1789402204108758"
+content_type = "text/html"
+
+[[outputs]]
+id = "Fd7iRmqqR3Y7e-UuUEWvq"
+uri = "file://attached_assets/vitality-chems-first-design-refined.jpeg"
+type = "image"
+title = "Vitality Chems — First Design"
+description = "The original first design with “Vitality Supply” changed to “Vitality Chems.”"
+logical_id = "a793f30b-652a-483f-92ea-cfb097ca428d"
+content_hash = "sha256:34bf7bf8be1f736a3aa9ac2f19e033af25ed095f369d75df5b029c852074cb0d"
+size = 116791
+mtime_ms = 1789534106436
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/repl:2c88f03a-21a7-472b-8989-4634ba944d8d/a793f30b-652a-483f-92ea-cfb097ca428d/abfd4992-e2d3-460a-80a5-8fea96b4f6ba"
+storage_version_token = "1789534112480195"
+content_type = "image/jpeg"
+
+[[outputs]]
+id = "JC1RqOBOR9ovsEABZpMBc"
+uri = "file://attached_assets/vitality-chems-clean-no-overlap-final.png"
+type = "image"
+title = "Vitality Chems — Clean Original Layout"
+description = "Restored the original composition, removed the logo overlap, and replaced the Vitality Supply wording with Vitality Chems."
+logical_id = "618bd214-e639-432b-950d-64664502dbfd"
+content_hash = "sha256:7a12fd581fe75f05734f589b3fa16feed6da4826a2d64206cbc415331af14cd4"
+size = 621358
+mtime_ms = 1789560024344
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/repl:2c88f03a-21a7-472b-8989-4634ba944d8d/618bd214-e639-432b-950d-64664502dbfd/f30fc7ad-fc23-48a8-be41-3e7bc0fb641b"
+storage_version_token = "1789560041352928"
+content_type = "image/png"
+
+[[outputs]]
+id = "VRo3F3KVzdXwvuBzfUF_N"
+uri = "file://attached_assets/generated/vitalitychems-stripe-brand-icon.png"
+type = "image"
+title = "Vitality Chems Stripe brand icon"
+description = "Square 200×200 PNG using the knot mark only, cropped from the supplied logo for Stripe Financial Connections."
+logical_id = "76323094-5472-4275-abe8-19873434f423"
+content_hash = "sha256:0822c24eff41379702af2540bcb528ef9177854e96f5319af43b863b0728b7ba"
+size = 43375
+mtime_ms = 1789564988831
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/repl:2c88f03a-21a7-472b-8989-4634ba944d8d/76323094-5472-4275-abe8-19873434f423/b8d60574-2639-49c2-b9db-ac63f837af48"
+storage_version_token = "1789564996232492"
+content_type = "image/png"

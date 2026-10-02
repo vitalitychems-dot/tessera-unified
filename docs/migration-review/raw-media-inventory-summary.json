@@ -1,0 +1,10 @@
+{
+  "status": "aggregate-only",
+  "source_review_totals": {
+    "source_path_entries": 1204,
+    "total_bytes": 411898709,
+    "distinct_git_blob_hashes": 1172
+  },
+  "public_disposition": "Path-level filenames and per-file hashes were omitted because the review inventory contains user-pasted and potentially personal filenames. The source archive remains unchanged.",
+  "scope_note": "These totals describe the historical review inventory, not a claim that every image was OCR-readable or visually reviewed."
+}

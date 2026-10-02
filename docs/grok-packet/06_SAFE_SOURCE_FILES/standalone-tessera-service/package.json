@@ -1,0 +1,12 @@
+{
+  "name": "tessera-independent-service",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "backup": "node src/backup-cli.mjs"
+  }
+}

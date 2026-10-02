@@ -1,0 +1,38 @@
+kind = "web"
+previewPath = "/"
+title = "Vitality Chems"
+description = "Vitality Chems research-use-only storefront for HPLC-documented materials, with age gating, COA documentation, compliant checkout, analytics, and research-library SEO."
+version = "1.0.0"
+id = "artifacts/vitality-supply"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22508
+
+[services.development]
+run = "pnpm --filter @workspace/vitality-supply run dev"
+
+[services.production]
+
+[services.production.build]
+args = [ "pnpm", "--filter", "@workspace/vitality-supply", "run", "build" ]
+
+[services.production.build.env]
+NODE_ENV = "production"
+
+[services.production.run]
+args = [ "pnpm", "--filter", "@workspace/vitality-supply", "run", "start" ]
+
+[services.production.run.env]
+PORT = "22508"
+BASE_PATH = "/"
+NODE_ENV = "production"
+
+[services.production.health.startup]
+path = "/api/health/live"
+
+[services.env]
+PORT = "22508"
+BASE_PATH = "/"

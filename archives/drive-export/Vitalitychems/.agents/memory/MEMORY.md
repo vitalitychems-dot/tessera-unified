@@ -1,0 +1,21 @@
+- [Age-gate hydration](gate-hydration.md) — derive initial gate state from the route only; never read the boot script's data-gate in useState or the page can stay inert after reload.
+- [Cart persistence](cart-persistence.md) — verify saved storage after cleanup; cart-dependent pages must gate on hydration (settled-by-attempt, storage may throw).
+- [Product vial image audit](product-image-audit.md) — only the printed vial label is truth; derive missing doses from verified siblings; bump PHOTO_VERSION on any regen.
+- [Legacy platform scaffolding](legacy-platform-cleanup.md) — old-platform code is gone; DATABASE_URL mandatory, one shared pg pool, bearer auth only in the embedded preview, COA tickets never in the newsletter table.
+- [Storefront testing gotchas](storefront-testing.md) — age gate every load, lazy images, lower-cased emails, and clear placeholder Zelle/BTC settings after a browser test run.
+- [Stripe connector quirks](stripe-connector-quirks.md) — connection keys are `secret`/`publishable`, syncBackfill needs `{object:"all"}`, dev-domain webhooks may never arrive: reconcile by pulling.
+- [Email delivery via Resend](email-delivery.md) — no send until the sender domain is verified; order mail goes through a claimed outbox with state re-check; check the admin DNS table first.
+- [Vials-only commerce model](vials-only-commerce.md) — use KIT10/10 cost; unknowns stay unknown; verified referrals settle after payment; first paid orders need staff review before shipping.
+- [Deployment domains](deployment-domains.md) — primary published URL is vitalitychems.com (with an s); every auth/origin allowlist must cover all deployment domains, exact-match in production.
+- [First-party funnel events](funnel-events.md) — admin funnel counts only store_events; visitor events are allowlisted, purchase is settlement-only after commit, KPIs count paid orders.
+- [Lazy globals feel like dead clicks](lazy-globals.md) — on-demand chunks need idle preload, an instant fallback, and the store flag (not a side-channel event) as mount trigger.
+- [AI manager autonomy](ai-manager-autonomy.md) — automate reversible non-financial settings only after server-derived live analytics clears the observation gate; never mutate pricing, payments, rewards, orders, fulfillment, auth, or deployments.
+- [AI manager audit quirks](manager-audit-quirks.md) — cold start skews probes, proxy rewrites public→private, web-search sources live in web_search_call.action.sources, redact before the call.
+- [Build and browser-check gotchas](build-and-test-gotchas.md) — never pipe the build through head; headless chromium over CDP for hydration/storage checks; wait past dev hydration before judging.
+- [Scheduler runtime imports](scheduler-runtime-imports.md) — tsx child schedulers run outside Vite; server-only scheduler dependencies must not read import.meta.env directly.
+- [Publish schema introspection](publish-index-introspection.md) — validate generated SQL; long index expressions and boolean shorthand checks can be serialized incorrectly.
+- [Publish data migrations](publish-data-migrations.md) — verify production rows after republish; custom SQL migrations may not run as part of the published artifact.
+- [Organic content engine safeguards](content-engine.md) — keep scheduler imports server-safe; require both gates; audit authored prose only; reject prompt meta-commentary.
+- [Conversion dimensions](conversion-dimensions.md) — keep bounded visitor dimensions in a dedicated JSONB column; purchase metadata remains settlement idempotency state.
+- [Manager responsive layout](manager-responsive-layout.md) — nested min-content widths can propagate document overflow even when visible child boxes fit; constrain grids and the app wrapper.
+- [Manager AI provider routing](manager-ai-provider-routing.md) — use Chat Completions for structured records-only calls; reserve Responses for web-search calls and citation extraction.

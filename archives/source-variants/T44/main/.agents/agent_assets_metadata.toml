@@ -1,0 +1,30 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "bqEi2nMe8PY3ntd7qm87A"
+uri = "file://.agents/outputs/github-push-review.md"
+type = "text"
+title = "Updated GitHub Push Review"
+description = "Current pre-push status: chart literals have been removed from source, but the API cannot start until FATHER_NATAL_CHART_JSON is valid strict JSON. No GitHub repository or push has been created."
+logical_id = "bfdd8eb1-2938-4da6-83d2-91762b973e9b"
+content_hash = "sha256:f6f0c543dcddda7893097dd163435a777a257c6478587a99e504c3d5e4625d90"
+size = 174530
+mtime_ms = 1790906420709
+storage_uri = "gcs://replit-rams-assets-kirk/rams/assets/repl:47efd507-da28-4b2e-a8e3-ad949e515c8e/bfdd8eb1-2938-4da6-83d2-91762b973e9b/0aa9f6db-d21e-4f6e-871c-6ad162c08ccc"
+storage_version_token = "1790906580380209"
+content_type = "text/markdown"
+
+[[outputs]]
+id = "-pUpQH89PGnoTZN-FDpLr"
+uri = "file://.local/everything-migration/GROK_INSTRUCTIONS.md"
+type = "text"
+title = "Grok instructions for Everything"
+description = "Local handoff draft; not yet published to GitHub."
+logical_id = "ddc8715f-ace7-48b7-8f2e-6dd0724a39c7"
+content_hash = "sha256:48e56bae6d821517afd389f25855196ee4825103cffe89541cefeb6ed2d653ff"
+size = 7054
+mtime_ms = 1790946490674
+storage_uri = "gcs://replit-rams-assets-kirk/rams/assets/repl:47efd507-da28-4b2e-a8e3-ad949e515c8e/ddc8715f-ace7-48b7-8f2e-6dd0724a39c7/750530e5-661e-4b11-82fe-dca303c9c87e"
+storage_version_token = "1790946549968907"
+content_type = "text/markdown"
