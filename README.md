@@ -36,6 +36,7 @@ Some identical app files are shared through tracked symlinks to canonical copies
 pnpm run typecheck
 pnpm test
 pnpm run build
+pnpm audit
 ```
 
 The root test runner isolates the store test environments and runs database-backed Tessera API tests only when the dedicated `TESSERA_TEST_DATABASE_URL` points to a loopback test database. It never reuses the app’s `DATABASE_URL` as a test database. If needed, a synthetic chart fixture can be supplied as `TESSERA_TEST_FATHER_NATAL_CHART_JSON`; do not use personal chart data for tests. `pnpm run build` builds all workspace apps and does **not** run database migrations. Migrations remain explicit app-specific operations and must only target the intended database.
@@ -49,7 +50,7 @@ The root test runner isolates the store test environments and runs database-back
 - `archives/source-variants/` and `archives/drive-export/` — reviewed historical code/text variants that are not active workspace packages by default.
 - `docs/` — project map, secrets guidance, image-to-text transcriptions, provenance, deduplication, and validation records.
 
-The source repository and Drive inputs are listed in [`docs/migration-review/source-manifest.csv`](docs/migration-review/source-manifest.csv). The protected `1T` vault was deliberately not inspected or copied. This repo uses fresh Git history; it does not import or replace original histories, branches, open reviews, or forks. All original source repositories remain unchanged. See the [consolidation record](docs/CONSOLIDATION.md) and [migration review](docs/migration-review/README.md).
+The source repository and Drive inputs are listed in [`docs/migration-review/source-manifest.csv`](docs/migration-review/source-manifest.csv). Current unmerged branch and open-PR gaps are disclosed in [`docs/migration-review/SOURCE-BRANCH-REVIEW.md`](docs/migration-review/SOURCE-BRANCH-REVIEW.md); not every branch-only payload is represented as merged. The protected `1T` vault was deliberately not inspected or copied. This repo uses fresh Git history; it does not import or replace original histories, branches, open reviews, or forks. All original source repositories remain unchanged. See the [consolidation record](docs/CONSOLIDATION.md) and [migration review](docs/migration-review/README.md).
 
 ## Images and text
 

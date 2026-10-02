@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: tessera_test
+          POSTGRES_USER: tessera_test
+          POSTGRES_PASSWORD: test-only
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U tessera_test -d tessera_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install frozen workspace
+        run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Audit all dependencies
+        run: pnpm audit
+      - name: Typecheck all applications and libraries
+        run: pnpm run typecheck
+      - name: Apply schema to disposable CI database
+        run: pnpm --filter @workspace/db run push
+        env:
+          DATABASE_URL: postgresql://tessera_test:test-only@127.0.0.1:5432/tessera_test
+      - name: Run isolated workspace tests
+        run: pnpm test
+        env:
+          TESSERA_TEST_DATABASE_URL: postgresql://tessera_test:test-only@127.0.0.1:5432/tessera_test
+          TESSERA_TEST_FATHER_NATAL_CHART_JSON: >-
+            {"birth":{"date":"2000-01-01","time":"12:00","location":"Synthetic Test Location","timezone":"UTC","houseSystem":"Whole Sign"},"core":{"sun":{"sign":"Aries","degree":"0","house":1},"moon":{"sign":"Taurus","degree":"0","house":2},"ascendant":{"sign":"Gemini","degree":"0"}},"planets":{"mercury":{"sign":"Aries","degree":"0","house":1},"venus":{"sign":"Taurus","degree":"0","house":2},"mars":{"sign":"Gemini","degree":"0","house":3},"jupiter":{"sign":"Cancer","degree":"0","house":4},"saturn":{"sign":"Leo","degree":"0","house":5},"uranus":{"sign":"Virgo","degree":"0","house":6},"neptune":{"sign":"Libra","degree":"0","house":7},"pluto":{"sign":"Scorpio","degree":"0","house":8}},"nodes":{"northNode":{"sign":"Sagittarius","degree":"0","house":9}},"aspects":["Synthetic test aspect"],"themes":{"dominance":"Synthetic","rising":"Gemini","moonSign":"Taurus","houseConcentration":["1st house"],"chineseZodiac":"Test"}}
+      - name: Build all workspace applications
+        run: pnpm run build

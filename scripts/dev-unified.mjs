@@ -2,6 +2,7 @@
 import { spawn } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { assertUniqueServicePorts, isLoopbackPostgresUrl } from "./suite-policy.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const envFile = join(root, ".env.local");
@@ -9,15 +10,6 @@ try {
   process.loadEnvFile(envFile);
 } catch (error) {
   if (error?.code !== "ENOENT") throw error;
-}
-
-const localDatabaseHosts = new Set(["", "localhost", "127.0.0.1", "::1"]);
-function isLocalDatabaseUrl(value) {
-  try {
-    return localDatabaseHosts.has(new URL(value).hostname);
-  } catch {
-    return false;
-  }
 }
 
 const port = (name, fallback) => {
@@ -70,7 +62,7 @@ const services = [
 ];
 
 const tesseraDatabaseUrl = process.env.DATABASE_URL?.trim();
-if (tesseraDatabaseUrl && isLocalDatabaseUrl(tesseraDatabaseUrl)) {
+if (tesseraDatabaseUrl && isLoopbackPostgresUrl(tesseraDatabaseUrl)) {
   services.unshift({
     label: "Tessera API",
     selector: "@workspace/api-server",
@@ -83,6 +75,8 @@ if (tesseraDatabaseUrl && isLocalDatabaseUrl(tesseraDatabaseUrl)) {
     ? "[suite] Tessera API is skipped: the unified runner only auto-connects to a local DATABASE_URL."
     : "[suite] Tessera API is skipped: set a local DATABASE_URL in the ignored .env.local to enable it.");
 }
+
+assertUniqueServicePorts(services);
 
 const packageManager = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
 const children = new Map();
@@ -125,7 +119,7 @@ for (const service of services) {
   if (service.databaseUrl) childEnv.DATABASE_URL = service.databaseUrl;
   if (service.databaseVariable) {
     const appDatabaseUrl = process.env[service.databaseVariable]?.trim();
-    if (appDatabaseUrl && isLocalDatabaseUrl(appDatabaseUrl)) {
+    if (appDatabaseUrl && isLoopbackPostgresUrl(appDatabaseUrl)) {
       childEnv.DATABASE_URL = appDatabaseUrl;
     } else if (appDatabaseUrl) {
       console.warn(`[suite] ${service.label} will use its isolated local data store; its configured database is not loopback.`);

@@ -3,6 +3,7 @@ import { spawn } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { isLoopbackPostgresUrl, samePostgresDatabase } from "./suite-policy.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const packageManager = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
@@ -54,6 +55,7 @@ delete isolatedEnv.TESSERA_TEST_FATHER_NATAL_CHART_JSON;
 
 let failures = 0;
 for (const [label, selector] of [
+  ["Suite safety policy", "@workspace/scripts"],
   ["Vitality Supply", "@workspace/vitality-supply"],
   ["Vitality Chems storefront", "app-builder-workspace"],
 ]) {
@@ -66,17 +68,15 @@ if (!testDatabaseUrl) {
     "\n[test] Tessera API integration tests skipped. Set TESSERA_TEST_DATABASE_URL to a dedicated local test database (not DATABASE_URL).",
   );
 } else {
-  let hostname = "";
-  try {
-    hostname = new URL(testDatabaseUrl).hostname;
-  } catch {
-    console.error("[test] TESSERA_TEST_DATABASE_URL is not a valid database URL.");
+  if (!isLoopbackPostgresUrl(testDatabaseUrl)) {
+    console.error(
+      "[test] Refusing an invalid or non-loopback PostgreSQL URL; use an explicit local test database.",
+    );
     process.exit(2);
   }
-  if (!new Set(["", "localhost", "127.0.0.1", "::1"]).has(hostname)) {
-    console.error(
-      "[test] Refusing to run database-backed API tests against a non-local host; use a dedicated local test database.",
-    );
+  const appDatabaseUrl = localTestValue("DATABASE_URL").trim();
+  if (appDatabaseUrl && samePostgresDatabase(testDatabaseUrl, appDatabaseUrl)) {
+    console.error("[test] Refusing to run API tests against the same database target configured for the app.");
     process.exit(2);
   }
   const apiEnv = {
