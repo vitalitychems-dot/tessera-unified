@@ -1,1 +1,0 @@
-../../../artifacts/vitality-supply/migrations/0004_credits.sql

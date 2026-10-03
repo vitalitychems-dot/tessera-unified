@@ -1,1 +1,0 @@
-../../../artifacts/vitality-supply/migrations/0006_affiliate.sql

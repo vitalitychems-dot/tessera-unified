@@ -1,1 +1,0 @@
-../../../../artifacts/vitality-supply/src/lib/pricing.ts
